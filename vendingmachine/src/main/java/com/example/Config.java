@@ -3,7 +3,6 @@ package com.example;
 public class Config {
     private int rows;
     private String columns;
-    // private Items[] items;
 
     public Config() {
     }
@@ -11,7 +10,6 @@ public class Config {
     public Config(int rows, String columns) {
         this.rows = rows;
         this.columns = columns;
-        // this.items = items;
     }
 
     public int getRows() {
