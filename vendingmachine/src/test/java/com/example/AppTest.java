@@ -105,6 +105,7 @@ class AppTest {
         assertEquals(vm.getIntValueOfString("$1"), 100);
         assertEquals(vm.getIntValueOfString("$.15"), 15);
         assertEquals(vm.getIntValueOfString("$0"), 0);
+        assertEquals(vm.getIntValueOfString("$2.5"), 250);
     }
 
     @Test
@@ -113,6 +114,7 @@ class AppTest {
         assertEquals(".00", vm.getStringValueOfMoney(0));
         assertEquals(".00", vm.getStringValueOfMoney(0));
         assertEquals("15.15", vm.getStringValueOfMoney(1515));
+
     }
 
     @Test

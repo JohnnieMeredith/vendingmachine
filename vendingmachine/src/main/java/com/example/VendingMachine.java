@@ -122,12 +122,13 @@ public class VendingMachine {
         int columnIndex = 1;
         StringBuilder productListString = new StringBuilder();
         for (Map.Entry<String, Item> entry : productLayout.entrySet()) {
-            String pos = entry.getKey();
+            String position = entry.getKey();
             Item item = entry.getValue();
-            productListString.append(
-                    String.format("[%s] %s-%s Qty:%s ", pos, item.getName(), item.getPrice(), item.getAmount()));
-            writeToScreen(
-                    String.format("[%s] %s - %s : Qty:%s ", pos, item.getName(), item.getPrice(), item.getAmount()));
+            String name = item.getName();
+            String price = item.getPrice();
+            int quantity = item.getAmount();
+            productListString.append(String.format("[%s] %s-%s Qty:%s ", position, name, price, quantity));
+            writeToScreen(String.format("[%s] %s - %s : Qty:%s ", position, name, price, quantity));
             if (columnIndex % getColumns() == 0) {
                 productListString.append("\n");
                 writeToScreen("\n");
@@ -225,26 +226,23 @@ public class VendingMachine {
             String price = item.getPrice();
             if (item.getAmount() > 0) {
                 if (paymentReceived.payAmount(item.getPriceinCents())) {
-                    System.out.println(item.getPriceinCents());
                     logger.info("SOLD: 1 {} at {}", name, price);
-                    // getPayment().payAmount(item.getPriceinCents());
                     dispenseItem(item);
-
                     return true;
                 } else {
 
                     logger.info("FAILED PURCHASE OF {} at {} reason: Insufficient Funds", name, price);
-                    writeToScreen("Insufficient funds for that item.");
+                    // writeToScreen("Insufficient funds for that item.");
                     return false;
                 }
             } else {
                 logger.info("FAILED PURCHASE OF %s reason: OUT OF STOCK", name);
-                writeToScreen("Sorry that item is out of stock.");
+                // writeToScreen("Sorry that item is out of stock.");
                 return false;
             }
         } else {
             logger.info("FAILED PURCHASE reason: NO SUCH ITEM");
-            writeToScreen("Please Select a valid item.");
+            // writeToScreen("Please Select a valid item.");
             return false;
         }
     }
@@ -264,8 +262,7 @@ public class VendingMachine {
     public String refundMoney(String money) {
         logger.info("REFUND: ${}.", money);
         ((CoinPayment) this.paymentReceived).setTotal(0);
-        writeToScreen(String.format("Refunded $%s\n", money));
-
+        // writeToScreen(String.format("Refunded $%s\n", money));
         logger.info("END OF TRANSACTION\n");
         return money;
     }
@@ -293,11 +290,13 @@ public class VendingMachine {
         StringBuilder stringBuilder = new StringBuilder();
         DecimalFormat moneyFormat = new DecimalFormat("#.00");
         stringBuilder.append(moneyFormat.format(((double) money / 100)));
-
         return stringBuilder.toString();
     }
 
     public int getIntValueOfString(String amount) {
+        if (amount == null) {
+            return 0;
+        }
         StringBuilder sb = new StringBuilder();
         if (!amount.contains(".")) {
             sb.append(amount);
@@ -307,6 +306,11 @@ public class VendingMachine {
         String assuredString = sb.toString();
         String parsed = assuredString.strip().replace("$", "");
         String[] split = parsed.split("\\.");
+        if (split[1].length() == 1) {
+            StringBuilder addZero = new StringBuilder(split[1]);
+            addZero.append("0");
+            split[1] = addZero.toString();
+        }
         if (split[0].length() == 0) {
             return Integer.valueOf((parsed.replace(".", "")));
         } else
@@ -317,17 +321,17 @@ public class VendingMachine {
      * End Convenience Metthods
      */
 
-    public static void main(String[] args) {
-        VendingMachine vendingMachine = new VendingMachine("vendingmachine\\src\\main\\resources\\input.json");
-        while (true) {
-
-            vendingMachine.printProductList();
-            vendingMachine.promptPayment();
-            vendingMachine.getUserSelection();
-            String moneyLeft = vendingMachine.getStringValueOfMoney(vendingMachine.getPayment().getTotal());
-            vendingMachine.refundMoney(moneyLeft);
-        }
-
-    }
+    /*
+     * public static void main(String[] args) { VendingMachine vendingMachine = new
+     * VendingMachine("vendingmachine\\src\\main\\resources\\input.json"); while
+     * (true) {
+     * 
+     * vendingMachine.printProductList(); vendingMachine.promptPayment();
+     * vendingMachine.getUserSelection(); String moneyLeft =
+     * vendingMachine.getStringValueOfMoney(vendingMachine.getPayment().getTotal());
+     * vendingMachine.refundMoney(moneyLeft); }
+     * 
+     * }
+     */
 
 }

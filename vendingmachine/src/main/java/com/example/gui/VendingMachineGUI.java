@@ -222,6 +222,9 @@ public class VendingMachineGUI extends javax.swing.JFrame {
 
     private void pathButtonActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
+        ProductUpdateGUI updateGUI = new ProductUpdateGUI(this.vendingMachine);
+        updateGUI.setVisible(true);
+        getThis().dispose();
     }
 
     private void dispense(Item item) {
