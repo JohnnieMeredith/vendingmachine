@@ -6,3 +6,677 @@
 [FATAL] 2021-09-21 13:30:56.124 [main] VendingMachineLogger - This is a fatal message
 [FATAL] 2021-09-21 13:31:23.798 [main] VendingMachineLogger - This is a fatal message
 [FATAL] 2021-09-21 13:32:54.728 [main] VendingMachineLoggerTestHelper - This is a fatal message
+[ERROR] 2021-09-21 15:15:58.742 [main] MyJson - java.io.FileNotFoundException: vendingmachine\src\main\resources\input.json (The system cannot find the path specified)
+[ERROR] 2021-09-21 15:16:35.212 [main] MyJson - java.io.FileNotFoundException: \..vendingmachine\src\main\resources\input.json (The system cannot find the path specified)
+[INFO ] 2021-09-21 19:39:03.300 [main] VendingMachine - PAYMENT ADDED: $ %s.%s cents
+[INFO ] 2021-09-21 19:39:03.301 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.301 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.301 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.301 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.301 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.301 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.301 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.301 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.301 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.301 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.301 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.301 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.302 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.302 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.302 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.302 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.302 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.302 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.302 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.302 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.302 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.302 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.302 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.302 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.302 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.302 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.302 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.303 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.303 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.303 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.303 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.303 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.316 [main] VendingMachine - PAYMENT ADDED: $ %s.%s cents
+[INFO ] 2021-09-21 19:39:03.316 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.316 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.316 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.316 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.316 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.316 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.316 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.316 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.316 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.317 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.317 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.317 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.317 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.317 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.317 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.317 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.317 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.317 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.317 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.318 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.318 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.318 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.318 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.318 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.318 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.318 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.318 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.318 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.319 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.319 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.319 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[INFO ] 2021-09-21 19:39:03.319 [main] VendingMachine - ADDED: %i %s, Current Price : %s to Slot: %s
+[FATAL] 2021-09-21 19:39:03.333 [main] VendingMachineLoggerTestHelper - This is a fatal message
+[INFO ] 2021-09-21 19:42:20.830 [main] VendingMachine - PAYMENT ADDED: $ 0.0 cents
+[INFO ] 2021-09-21 19:42:49.750 [main] VendingMachine - PAYMENT ADDED: $ 0.0 cents
+[INFO ] 2021-09-21 19:42:49.751 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A0
+[INFO ] 2021-09-21 19:42:49.751 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A1
+[INFO ] 2021-09-21 19:42:49.751 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A2
+[INFO ] 2021-09-21 19:42:49.751 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A3
+[INFO ] 2021-09-21 19:42:49.751 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A4
+[INFO ] 2021-09-21 19:42:49.752 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A5
+[INFO ] 2021-09-21 19:42:49.752 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A6
+[INFO ] 2021-09-21 19:42:49.752 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A7
+[INFO ] 2021-09-21 19:42:49.752 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B0
+[INFO ] 2021-09-21 19:42:49.753 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B1
+[INFO ] 2021-09-21 19:42:49.753 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B2
+[INFO ] 2021-09-21 19:42:49.753 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B3
+[INFO ] 2021-09-21 19:42:49.753 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B4
+[INFO ] 2021-09-21 19:42:49.753 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B5
+[INFO ] 2021-09-21 19:42:49.753 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B6
+[INFO ] 2021-09-21 19:42:49.754 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B7
+[INFO ] 2021-09-21 19:42:49.754 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C0
+[INFO ] 2021-09-21 19:42:49.754 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C1
+[INFO ] 2021-09-21 19:42:49.754 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C2
+[INFO ] 2021-09-21 19:42:49.754 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C3
+[INFO ] 2021-09-21 19:42:49.754 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C4
+[INFO ] 2021-09-21 19:42:49.754 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C5
+[INFO ] 2021-09-21 19:42:49.755 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C6
+[INFO ] 2021-09-21 19:42:49.755 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C7
+[INFO ] 2021-09-21 19:42:49.755 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D0
+[INFO ] 2021-09-21 19:42:49.755 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D1
+[INFO ] 2021-09-21 19:42:49.755 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D2
+[INFO ] 2021-09-21 19:42:49.755 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D3
+[INFO ] 2021-09-21 19:42:49.756 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D4
+[INFO ] 2021-09-21 19:42:49.756 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D5
+[INFO ] 2021-09-21 19:42:49.756 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D6
+[INFO ] 2021-09-21 19:42:49.756 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D7
+[INFO ] 2021-09-21 19:42:49.769 [main] VendingMachine - PAYMENT ADDED: $ 0.0 cents
+[INFO ] 2021-09-21 19:42:49.770 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A0
+[INFO ] 2021-09-21 19:42:49.770 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A1
+[INFO ] 2021-09-21 19:42:49.770 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A2
+[INFO ] 2021-09-21 19:42:49.770 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A3
+[INFO ] 2021-09-21 19:42:49.770 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A4
+[INFO ] 2021-09-21 19:42:49.770 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A5
+[INFO ] 2021-09-21 19:42:49.770 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A6
+[INFO ] 2021-09-21 19:42:49.771 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A7
+[INFO ] 2021-09-21 19:42:49.771 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B0
+[INFO ] 2021-09-21 19:42:49.771 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B1
+[INFO ] 2021-09-21 19:42:49.771 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B2
+[INFO ] 2021-09-21 19:42:49.771 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B3
+[INFO ] 2021-09-21 19:42:49.771 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B4
+[INFO ] 2021-09-21 19:42:49.771 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B5
+[INFO ] 2021-09-21 19:42:49.772 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B6
+[INFO ] 2021-09-21 19:42:49.772 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B7
+[INFO ] 2021-09-21 19:42:49.772 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C0
+[INFO ] 2021-09-21 19:42:49.772 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C1
+[INFO ] 2021-09-21 19:42:49.772 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C2
+[INFO ] 2021-09-21 19:42:49.772 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C3
+[INFO ] 2021-09-21 19:42:49.772 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C4
+[INFO ] 2021-09-21 19:42:49.772 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C5
+[INFO ] 2021-09-21 19:42:49.772 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C6
+[INFO ] 2021-09-21 19:42:49.773 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C7
+[INFO ] 2021-09-21 19:42:49.773 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D0
+[INFO ] 2021-09-21 19:42:49.773 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D1
+[INFO ] 2021-09-21 19:42:49.773 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D2
+[INFO ] 2021-09-21 19:42:49.773 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D3
+[INFO ] 2021-09-21 19:42:49.773 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D4
+[INFO ] 2021-09-21 19:42:49.773 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D5
+[INFO ] 2021-09-21 19:42:49.773 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D6
+[INFO ] 2021-09-21 19:42:49.774 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D7
+[FATAL] 2021-09-21 19:42:49.791 [main] VendingMachineLoggerTestHelper - This is a fatal message
+[INFO ] 2021-09-21 20:46:32.277 [main] VendingMachine - PAYMENT ADDED: $ 0.0 cents
+[INFO ] 2021-09-21 20:46:32.279 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A0
+[INFO ] 2021-09-21 20:46:32.279 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A1
+[INFO ] 2021-09-21 20:46:32.279 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A2
+[INFO ] 2021-09-21 20:46:32.279 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A3
+[INFO ] 2021-09-21 20:46:32.279 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A4
+[INFO ] 2021-09-21 20:46:32.279 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A5
+[INFO ] 2021-09-21 20:46:32.279 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A6
+[INFO ] 2021-09-21 20:46:32.279 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A7
+[INFO ] 2021-09-21 20:46:32.280 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B0
+[INFO ] 2021-09-21 20:46:32.280 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B1
+[INFO ] 2021-09-21 20:46:32.280 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B2
+[INFO ] 2021-09-21 20:46:32.280 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B3
+[INFO ] 2021-09-21 20:46:32.280 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B4
+[INFO ] 2021-09-21 20:46:32.280 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B5
+[INFO ] 2021-09-21 20:46:32.280 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B6
+[INFO ] 2021-09-21 20:46:32.281 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B7
+[INFO ] 2021-09-21 20:46:32.281 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C0
+[INFO ] 2021-09-21 20:46:32.281 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C1
+[INFO ] 2021-09-21 20:46:32.281 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C2
+[INFO ] 2021-09-21 20:46:32.281 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C3
+[INFO ] 2021-09-21 20:46:32.281 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C4
+[INFO ] 2021-09-21 20:46:32.282 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C5
+[INFO ] 2021-09-21 20:46:32.282 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C6
+[INFO ] 2021-09-21 20:46:32.282 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C7
+[INFO ] 2021-09-21 20:46:32.282 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D0
+[INFO ] 2021-09-21 20:46:32.282 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D1
+[INFO ] 2021-09-21 20:46:32.282 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D2
+[INFO ] 2021-09-21 20:46:32.282 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D3
+[INFO ] 2021-09-21 20:46:32.283 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D4
+[INFO ] 2021-09-21 20:46:32.283 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D5
+[INFO ] 2021-09-21 20:46:32.283 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D6
+[INFO ] 2021-09-21 20:46:32.283 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D7
+[INFO ] 2021-09-21 21:02:27.396 [main] VendingMachine - PAYMENT ADDED: $ 0.0 cents
+[INFO ] 2021-09-21 21:02:27.397 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A0
+[INFO ] 2021-09-21 21:02:27.397 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A1
+[INFO ] 2021-09-21 21:02:27.397 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A2
+[INFO ] 2021-09-21 21:02:27.398 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A3
+[INFO ] 2021-09-21 21:02:27.398 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A4
+[INFO ] 2021-09-21 21:02:27.398 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A5
+[INFO ] 2021-09-21 21:02:27.398 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A6
+[INFO ] 2021-09-21 21:02:27.398 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A7
+[INFO ] 2021-09-21 21:02:27.398 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B0
+[INFO ] 2021-09-21 21:02:27.398 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B1
+[INFO ] 2021-09-21 21:02:27.398 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B2
+[INFO ] 2021-09-21 21:02:27.399 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B3
+[INFO ] 2021-09-21 21:02:27.399 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B4
+[INFO ] 2021-09-21 21:02:27.399 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B5
+[INFO ] 2021-09-21 21:02:27.399 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B6
+[INFO ] 2021-09-21 21:02:27.399 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B7
+[INFO ] 2021-09-21 21:02:27.399 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C0
+[INFO ] 2021-09-21 21:02:27.399 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C1
+[INFO ] 2021-09-21 21:02:27.400 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C2
+[INFO ] 2021-09-21 21:02:27.400 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C3
+[INFO ] 2021-09-21 21:02:27.400 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C4
+[INFO ] 2021-09-21 21:02:27.400 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C5
+[INFO ] 2021-09-21 21:02:27.400 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C6
+[INFO ] 2021-09-21 21:02:27.400 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C7
+[INFO ] 2021-09-21 21:02:27.400 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D0
+[INFO ] 2021-09-21 21:02:27.400 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D1
+[INFO ] 2021-09-21 21:02:27.400 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D2
+[INFO ] 2021-09-21 21:02:27.401 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D3
+[INFO ] 2021-09-21 21:02:27.401 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D4
+[INFO ] 2021-09-21 21:02:27.401 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D5
+[INFO ] 2021-09-21 21:02:27.401 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D6
+[INFO ] 2021-09-21 21:02:27.401 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D7
+[INFO ] 2021-09-21 21:04:28.831 [main] VendingMachine - PAYMENT ADDED: $ 0.0 cents
+[INFO ] 2021-09-21 21:04:28.833 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A0
+[INFO ] 2021-09-21 21:04:28.833 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A1
+[INFO ] 2021-09-21 21:04:28.834 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A2
+[INFO ] 2021-09-21 21:04:28.834 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A3
+[INFO ] 2021-09-21 21:04:28.834 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A4
+[INFO ] 2021-09-21 21:04:28.834 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A5
+[INFO ] 2021-09-21 21:04:28.834 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A6
+[INFO ] 2021-09-21 21:04:28.834 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A7
+[INFO ] 2021-09-21 21:04:28.834 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B0
+[INFO ] 2021-09-21 21:04:28.835 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B1
+[INFO ] 2021-09-21 21:04:28.835 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B2
+[INFO ] 2021-09-21 21:04:28.835 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B3
+[INFO ] 2021-09-21 21:04:28.835 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B4
+[INFO ] 2021-09-21 21:04:28.835 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B5
+[INFO ] 2021-09-21 21:04:28.835 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B6
+[INFO ] 2021-09-21 21:04:28.835 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B7
+[INFO ] 2021-09-21 21:04:28.835 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C0
+[INFO ] 2021-09-21 21:04:28.836 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C1
+[INFO ] 2021-09-21 21:04:28.836 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C2
+[INFO ] 2021-09-21 21:04:28.836 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C3
+[INFO ] 2021-09-21 21:04:28.836 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C4
+[INFO ] 2021-09-21 21:04:28.836 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C5
+[INFO ] 2021-09-21 21:04:28.836 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C6
+[INFO ] 2021-09-21 21:04:28.836 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C7
+[INFO ] 2021-09-21 21:04:28.837 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D0
+[INFO ] 2021-09-21 21:04:28.837 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D1
+[INFO ] 2021-09-21 21:04:28.837 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D2
+[INFO ] 2021-09-21 21:04:28.837 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D3
+[INFO ] 2021-09-21 21:04:28.837 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D4
+[INFO ] 2021-09-21 21:04:28.837 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D5
+[INFO ] 2021-09-21 21:04:28.837 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D6
+[INFO ] 2021-09-21 21:04:28.837 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D7
+[INFO ] 2021-09-21 21:09:43.671 [main] VendingMachine - PAYMENT ADDED: $ 0.0 cents
+[INFO ] 2021-09-21 21:09:43.672 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A0
+[INFO ] 2021-09-21 21:09:43.673 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A1
+[INFO ] 2021-09-21 21:09:43.673 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A2
+[INFO ] 2021-09-21 21:09:43.673 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A3
+[INFO ] 2021-09-21 21:09:43.673 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A4
+[INFO ] 2021-09-21 21:09:43.673 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A5
+[INFO ] 2021-09-21 21:09:43.673 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A6
+[INFO ] 2021-09-21 21:09:43.673 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A7
+[INFO ] 2021-09-21 21:09:43.673 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B0
+[INFO ] 2021-09-21 21:09:43.674 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B1
+[INFO ] 2021-09-21 21:09:43.674 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B2
+[INFO ] 2021-09-21 21:09:43.674 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B3
+[INFO ] 2021-09-21 21:09:43.674 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B4
+[INFO ] 2021-09-21 21:09:43.674 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B5
+[INFO ] 2021-09-21 21:09:43.674 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B6
+[INFO ] 2021-09-21 21:09:43.674 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B7
+[INFO ] 2021-09-21 21:09:43.674 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C0
+[INFO ] 2021-09-21 21:09:43.675 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C1
+[INFO ] 2021-09-21 21:09:43.675 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C2
+[INFO ] 2021-09-21 21:09:43.675 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C3
+[INFO ] 2021-09-21 21:09:43.675 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C4
+[INFO ] 2021-09-21 21:09:43.675 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C5
+[INFO ] 2021-09-21 21:09:43.675 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C6
+[INFO ] 2021-09-21 21:09:43.675 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C7
+[INFO ] 2021-09-21 21:09:43.676 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D0
+[INFO ] 2021-09-21 21:09:43.676 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D1
+[INFO ] 2021-09-21 21:09:43.676 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D2
+[INFO ] 2021-09-21 21:09:43.676 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D3
+[INFO ] 2021-09-21 21:09:43.676 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D4
+[INFO ] 2021-09-21 21:09:43.676 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D5
+[INFO ] 2021-09-21 21:09:43.676 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D6
+[INFO ] 2021-09-21 21:09:43.676 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D7
+[INFO ] 2021-09-21 21:11:48.872 [main] VendingMachine - PAYMENT ADDED: $ 0.0 cents
+[INFO ] 2021-09-21 21:11:48.874 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A0
+[INFO ] 2021-09-21 21:11:48.874 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A1
+[INFO ] 2021-09-21 21:11:48.874 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A2
+[INFO ] 2021-09-21 21:11:48.874 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A3
+[INFO ] 2021-09-21 21:11:48.874 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A4
+[INFO ] 2021-09-21 21:11:48.874 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A5
+[INFO ] 2021-09-21 21:11:48.874 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A6
+[INFO ] 2021-09-21 21:11:48.874 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A7
+[INFO ] 2021-09-21 21:11:48.874 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B0
+[INFO ] 2021-09-21 21:11:48.874 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B1
+[INFO ] 2021-09-21 21:11:48.874 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B2
+[INFO ] 2021-09-21 21:11:48.875 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B3
+[INFO ] 2021-09-21 21:11:48.875 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B4
+[INFO ] 2021-09-21 21:11:48.875 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B5
+[INFO ] 2021-09-21 21:11:48.875 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B6
+[INFO ] 2021-09-21 21:11:48.875 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B7
+[INFO ] 2021-09-21 21:11:48.875 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C0
+[INFO ] 2021-09-21 21:11:48.875 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C1
+[INFO ] 2021-09-21 21:11:48.876 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C2
+[INFO ] 2021-09-21 21:11:48.876 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C3
+[INFO ] 2021-09-21 21:11:48.876 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C4
+[INFO ] 2021-09-21 21:11:48.876 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C5
+[INFO ] 2021-09-21 21:11:48.876 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C6
+[INFO ] 2021-09-21 21:11:48.876 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C7
+[INFO ] 2021-09-21 21:11:48.876 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D0
+[INFO ] 2021-09-21 21:11:48.876 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D1
+[INFO ] 2021-09-21 21:11:48.877 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D2
+[INFO ] 2021-09-21 21:11:48.877 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D3
+[INFO ] 2021-09-21 21:11:48.877 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D4
+[INFO ] 2021-09-21 21:11:48.877 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D5
+[INFO ] 2021-09-21 21:11:48.877 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D6
+[INFO ] 2021-09-21 21:11:48.877 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D7
+[INFO ] 2021-09-21 21:15:14.417 [main] VendingMachine - PAYMENT ADDED: $ 0.0 cents
+[INFO ] 2021-09-21 21:15:14.418 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A0
+[INFO ] 2021-09-21 21:15:14.419 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A1
+[INFO ] 2021-09-21 21:15:14.419 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A2
+[INFO ] 2021-09-21 21:15:14.419 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A3
+[INFO ] 2021-09-21 21:15:14.419 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A4
+[INFO ] 2021-09-21 21:15:14.419 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A5
+[INFO ] 2021-09-21 21:15:14.419 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A6
+[INFO ] 2021-09-21 21:15:14.420 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A7
+[INFO ] 2021-09-21 21:15:14.420 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B0
+[INFO ] 2021-09-21 21:15:14.420 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B1
+[INFO ] 2021-09-21 21:15:14.420 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B2
+[INFO ] 2021-09-21 21:15:14.420 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B3
+[INFO ] 2021-09-21 21:15:14.420 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B4
+[INFO ] 2021-09-21 21:15:14.420 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B5
+[INFO ] 2021-09-21 21:15:14.420 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B6
+[INFO ] 2021-09-21 21:15:14.421 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B7
+[INFO ] 2021-09-21 21:15:14.421 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C0
+[INFO ] 2021-09-21 21:15:14.421 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C1
+[INFO ] 2021-09-21 21:15:14.421 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C2
+[INFO ] 2021-09-21 21:15:14.421 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C3
+[INFO ] 2021-09-21 21:15:14.421 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C4
+[INFO ] 2021-09-21 21:15:14.421 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C5
+[INFO ] 2021-09-21 21:15:14.421 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C6
+[INFO ] 2021-09-21 21:15:14.422 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C7
+[INFO ] 2021-09-21 21:15:14.422 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D0
+[INFO ] 2021-09-21 21:15:14.422 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D1
+[INFO ] 2021-09-21 21:15:14.422 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D2
+[INFO ] 2021-09-21 21:15:14.422 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D3
+[INFO ] 2021-09-21 21:15:14.422 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D4
+[INFO ] 2021-09-21 21:15:14.422 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D5
+[INFO ] 2021-09-21 21:15:14.422 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D6
+[INFO ] 2021-09-21 21:15:14.423 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D7
+[INFO ] 2021-09-21 21:15:50.926 [main] VendingMachine - PAYMENT ADDED: $ 0.0 cents
+[INFO ] 2021-09-21 21:15:50.927 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A0
+[INFO ] 2021-09-21 21:15:50.928 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A1
+[INFO ] 2021-09-21 21:15:50.928 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A2
+[INFO ] 2021-09-21 21:15:50.928 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A3
+[INFO ] 2021-09-21 21:15:50.928 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A4
+[INFO ] 2021-09-21 21:15:50.928 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A5
+[INFO ] 2021-09-21 21:15:50.928 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A6
+[INFO ] 2021-09-21 21:15:50.928 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A7
+[INFO ] 2021-09-21 21:15:50.929 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B0
+[INFO ] 2021-09-21 21:15:50.929 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B1
+[INFO ] 2021-09-21 21:15:50.929 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B2
+[INFO ] 2021-09-21 21:15:50.929 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B3
+[INFO ] 2021-09-21 21:15:50.929 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B4
+[INFO ] 2021-09-21 21:15:50.929 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B5
+[INFO ] 2021-09-21 21:15:50.929 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B6
+[INFO ] 2021-09-21 21:15:50.929 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B7
+[INFO ] 2021-09-21 21:15:50.930 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C0
+[INFO ] 2021-09-21 21:15:50.930 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C1
+[INFO ] 2021-09-21 21:15:50.930 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C2
+[INFO ] 2021-09-21 21:15:50.930 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C3
+[INFO ] 2021-09-21 21:15:50.930 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C4
+[INFO ] 2021-09-21 21:15:50.930 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C5
+[INFO ] 2021-09-21 21:15:50.930 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C6
+[INFO ] 2021-09-21 21:15:50.931 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C7
+[INFO ] 2021-09-21 21:15:50.931 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D0
+[INFO ] 2021-09-21 21:15:50.931 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D1
+[INFO ] 2021-09-21 21:15:50.931 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D2
+[INFO ] 2021-09-21 21:15:50.931 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D3
+[INFO ] 2021-09-21 21:15:50.931 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D4
+[INFO ] 2021-09-21 21:15:50.931 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D5
+[INFO ] 2021-09-21 21:15:50.931 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D6
+[INFO ] 2021-09-21 21:15:50.932 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D7
+[INFO ] 2021-09-21 21:20:40.643 [main] VendingMachine - PAYMENT ADDED: $ 0.0 cents
+[INFO ] 2021-09-21 21:20:40.644 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A0
+[INFO ] 2021-09-21 21:20:40.644 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A1
+[INFO ] 2021-09-21 21:20:40.645 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A2
+[INFO ] 2021-09-21 21:20:40.645 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A3
+[INFO ] 2021-09-21 21:20:40.645 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A4
+[INFO ] 2021-09-21 21:20:40.645 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A5
+[INFO ] 2021-09-21 21:20:40.645 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A6
+[INFO ] 2021-09-21 21:20:40.645 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A7
+[INFO ] 2021-09-21 21:20:40.645 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B0
+[INFO ] 2021-09-21 21:20:40.646 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B1
+[INFO ] 2021-09-21 21:20:40.646 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B2
+[INFO ] 2021-09-21 21:20:40.646 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B3
+[INFO ] 2021-09-21 21:20:40.646 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B4
+[INFO ] 2021-09-21 21:20:40.646 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B5
+[INFO ] 2021-09-21 21:20:40.646 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B6
+[INFO ] 2021-09-21 21:20:40.646 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B7
+[INFO ] 2021-09-21 21:20:40.647 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C0
+[INFO ] 2021-09-21 21:20:40.647 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C1
+[INFO ] 2021-09-21 21:20:40.647 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C2
+[INFO ] 2021-09-21 21:20:40.647 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C3
+[INFO ] 2021-09-21 21:20:40.647 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C4
+[INFO ] 2021-09-21 21:20:40.647 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C5
+[INFO ] 2021-09-21 21:20:40.647 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C6
+[INFO ] 2021-09-21 21:20:40.647 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C7
+[INFO ] 2021-09-21 21:20:40.647 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D0
+[INFO ] 2021-09-21 21:20:40.648 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D1
+[INFO ] 2021-09-21 21:20:40.648 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D2
+[INFO ] 2021-09-21 21:20:40.648 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D3
+[INFO ] 2021-09-21 21:20:40.648 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D4
+[INFO ] 2021-09-21 21:20:40.649 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D5
+[INFO ] 2021-09-21 21:20:40.649 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D6
+[INFO ] 2021-09-21 21:20:40.649 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D7
+[INFO ] 2021-09-21 21:21:56.907 [main] VendingMachine - PAYMENT ADDED: $ 0.0 cents
+[INFO ] 2021-09-21 21:21:56.908 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A0
+[INFO ] 2021-09-21 21:21:56.909 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A1
+[INFO ] 2021-09-21 21:21:56.909 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A2
+[INFO ] 2021-09-21 21:21:56.909 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A3
+[INFO ] 2021-09-21 21:21:56.909 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A4
+[INFO ] 2021-09-21 21:21:56.909 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A5
+[INFO ] 2021-09-21 21:21:56.909 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A6
+[INFO ] 2021-09-21 21:21:56.909 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A7
+[INFO ] 2021-09-21 21:21:56.910 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B0
+[INFO ] 2021-09-21 21:21:56.910 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B1
+[INFO ] 2021-09-21 21:21:56.910 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B2
+[INFO ] 2021-09-21 21:21:56.910 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B3
+[INFO ] 2021-09-21 21:21:56.910 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B4
+[INFO ] 2021-09-21 21:21:56.910 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B5
+[INFO ] 2021-09-21 21:21:56.910 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B6
+[INFO ] 2021-09-21 21:21:56.910 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B7
+[INFO ] 2021-09-21 21:21:56.911 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C0
+[INFO ] 2021-09-21 21:21:56.911 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C1
+[INFO ] 2021-09-21 21:21:56.911 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C2
+[INFO ] 2021-09-21 21:21:56.911 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C3
+[INFO ] 2021-09-21 21:21:56.911 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C4
+[INFO ] 2021-09-21 21:21:56.911 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C5
+[INFO ] 2021-09-21 21:21:56.911 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C6
+[INFO ] 2021-09-21 21:21:56.911 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C7
+[INFO ] 2021-09-21 21:21:56.912 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D0
+[INFO ] 2021-09-21 21:21:56.912 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D1
+[INFO ] 2021-09-21 21:21:56.912 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D2
+[INFO ] 2021-09-21 21:21:56.912 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D3
+[INFO ] 2021-09-21 21:21:56.912 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D4
+[INFO ] 2021-09-21 21:21:56.912 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D5
+[INFO ] 2021-09-21 21:21:56.913 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D6
+[INFO ] 2021-09-21 21:21:56.913 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D7
+[INFO ] 2021-09-21 21:23:24.214 [main] VendingMachine - PAYMENT ADDED: $ 0.0 cents
+[INFO ] 2021-09-21 21:23:24.215 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A0
+[INFO ] 2021-09-21 21:23:24.215 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A1
+[INFO ] 2021-09-21 21:23:24.216 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A2
+[INFO ] 2021-09-21 21:23:24.216 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A3
+[INFO ] 2021-09-21 21:23:24.216 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A4
+[INFO ] 2021-09-21 21:23:24.216 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A5
+[INFO ] 2021-09-21 21:23:24.216 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A6
+[INFO ] 2021-09-21 21:23:24.216 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A7
+[INFO ] 2021-09-21 21:23:24.216 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B0
+[INFO ] 2021-09-21 21:23:24.217 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B1
+[INFO ] 2021-09-21 21:23:24.217 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B2
+[INFO ] 2021-09-21 21:23:24.217 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B3
+[INFO ] 2021-09-21 21:23:24.217 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B4
+[INFO ] 2021-09-21 21:23:24.217 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B5
+[INFO ] 2021-09-21 21:23:24.217 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B6
+[INFO ] 2021-09-21 21:23:24.217 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B7
+[INFO ] 2021-09-21 21:23:24.218 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C0
+[INFO ] 2021-09-21 21:23:24.218 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C1
+[INFO ] 2021-09-21 21:23:24.218 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C2
+[INFO ] 2021-09-21 21:23:24.218 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C3
+[INFO ] 2021-09-21 21:23:24.218 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C4
+[INFO ] 2021-09-21 21:23:24.218 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C5
+[INFO ] 2021-09-21 21:23:24.218 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C6
+[INFO ] 2021-09-21 21:23:24.218 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C7
+[INFO ] 2021-09-21 21:23:24.219 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D0
+[INFO ] 2021-09-21 21:23:24.219 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D1
+[INFO ] 2021-09-21 21:23:24.219 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D2
+[INFO ] 2021-09-21 21:23:24.219 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D3
+[INFO ] 2021-09-21 21:23:24.219 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D4
+[INFO ] 2021-09-21 21:23:24.219 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D5
+[INFO ] 2021-09-21 21:23:24.219 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D6
+[INFO ] 2021-09-21 21:23:24.219 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D7
+[INFO ] 2021-09-21 21:26:06.987 [main] VendingMachine - PAYMENT ADDED: $ 0.0 cents
+[INFO ] 2021-09-21 21:26:06.989 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A0
+[INFO ] 2021-09-21 21:26:06.989 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A1
+[INFO ] 2021-09-21 21:26:06.989 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A2
+[INFO ] 2021-09-21 21:26:06.989 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A3
+[INFO ] 2021-09-21 21:26:06.990 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A4
+[INFO ] 2021-09-21 21:26:06.990 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A5
+[INFO ] 2021-09-21 21:26:06.990 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A6
+[INFO ] 2021-09-21 21:26:06.990 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A7
+[INFO ] 2021-09-21 21:26:06.990 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B0
+[INFO ] 2021-09-21 21:26:06.990 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B1
+[INFO ] 2021-09-21 21:26:06.990 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B2
+[INFO ] 2021-09-21 21:26:06.991 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B3
+[INFO ] 2021-09-21 21:26:06.991 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B4
+[INFO ] 2021-09-21 21:26:06.991 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B5
+[INFO ] 2021-09-21 21:26:06.991 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B6
+[INFO ] 2021-09-21 21:26:06.991 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B7
+[INFO ] 2021-09-21 21:26:06.992 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C0
+[INFO ] 2021-09-21 21:26:06.992 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C1
+[INFO ] 2021-09-21 21:26:06.992 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C2
+[INFO ] 2021-09-21 21:26:06.992 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C3
+[INFO ] 2021-09-21 21:26:06.992 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C4
+[INFO ] 2021-09-21 21:26:06.992 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C5
+[INFO ] 2021-09-21 21:26:06.993 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C6
+[INFO ] 2021-09-21 21:26:06.993 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C7
+[INFO ] 2021-09-21 21:26:06.993 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D0
+[INFO ] 2021-09-21 21:26:06.993 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D1
+[INFO ] 2021-09-21 21:26:06.993 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D2
+[INFO ] 2021-09-21 21:26:06.993 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D3
+[INFO ] 2021-09-21 21:26:06.993 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D4
+[INFO ] 2021-09-21 21:26:06.994 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D5
+[INFO ] 2021-09-21 21:26:06.994 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D6
+[INFO ] 2021-09-21 21:26:06.994 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D7
+[INFO ] 2021-09-21 21:27:50.917 [main] VendingMachine - PAYMENT ADDED: $ 0.0 cents
+[INFO ] 2021-09-21 21:27:50.919 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A0
+[INFO ] 2021-09-21 21:27:50.919 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A1
+[INFO ] 2021-09-21 21:27:50.919 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A2
+[INFO ] 2021-09-21 21:27:50.920 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A3
+[INFO ] 2021-09-21 21:27:50.920 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A4
+[INFO ] 2021-09-21 21:27:50.920 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A5
+[INFO ] 2021-09-21 21:27:50.920 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A6
+[INFO ] 2021-09-21 21:27:50.920 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A7
+[INFO ] 2021-09-21 21:27:50.920 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B0
+[INFO ] 2021-09-21 21:27:50.920 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B1
+[INFO ] 2021-09-21 21:27:50.920 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B2
+[INFO ] 2021-09-21 21:27:50.921 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B3
+[INFO ] 2021-09-21 21:27:50.921 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B4
+[INFO ] 2021-09-21 21:27:50.921 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B5
+[INFO ] 2021-09-21 21:27:50.921 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B6
+[INFO ] 2021-09-21 21:27:50.921 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B7
+[INFO ] 2021-09-21 21:27:50.921 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C0
+[INFO ] 2021-09-21 21:27:50.922 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C1
+[INFO ] 2021-09-21 21:27:50.922 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C2
+[INFO ] 2021-09-21 21:27:50.922 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C3
+[INFO ] 2021-09-21 21:27:50.922 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C4
+[INFO ] 2021-09-21 21:27:50.922 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C5
+[INFO ] 2021-09-21 21:27:50.922 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C6
+[INFO ] 2021-09-21 21:27:50.922 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C7
+[INFO ] 2021-09-21 21:27:50.922 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D0
+[INFO ] 2021-09-21 21:27:50.922 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D1
+[INFO ] 2021-09-21 21:27:50.923 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D2
+[INFO ] 2021-09-21 21:27:50.923 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D3
+[INFO ] 2021-09-21 21:27:50.923 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D4
+[INFO ] 2021-09-21 21:27:50.923 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D5
+[INFO ] 2021-09-21 21:27:50.923 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D6
+[INFO ] 2021-09-21 21:27:50.923 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D7
+[INFO ] 2021-09-21 21:27:50.944 [main] VendingMachine - PAYMENT ADDED: $ 0.0 cents
+[INFO ] 2021-09-21 21:27:50.944 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A0
+[INFO ] 2021-09-21 21:27:50.944 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A1
+[INFO ] 2021-09-21 21:27:50.944 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A2
+[INFO ] 2021-09-21 21:27:50.945 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A3
+[INFO ] 2021-09-21 21:27:50.945 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A4
+[INFO ] 2021-09-21 21:27:50.945 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A5
+[INFO ] 2021-09-21 21:27:50.945 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A6
+[INFO ] 2021-09-21 21:27:50.945 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A7
+[INFO ] 2021-09-21 21:27:50.945 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B0
+[INFO ] 2021-09-21 21:27:50.945 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B1
+[INFO ] 2021-09-21 21:27:50.945 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B2
+[INFO ] 2021-09-21 21:27:50.945 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B3
+[INFO ] 2021-09-21 21:27:50.946 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B4
+[INFO ] 2021-09-21 21:27:50.946 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B5
+[INFO ] 2021-09-21 21:27:50.946 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B6
+[INFO ] 2021-09-21 21:27:50.946 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: B7
+[INFO ] 2021-09-21 21:27:50.946 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C0
+[INFO ] 2021-09-21 21:27:50.947 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C1
+[INFO ] 2021-09-21 21:27:50.947 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C2
+[INFO ] 2021-09-21 21:27:50.947 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C3
+[INFO ] 2021-09-21 21:27:50.947 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C4
+[INFO ] 2021-09-21 21:27:50.947 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C5
+[INFO ] 2021-09-21 21:27:50.947 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C6
+[INFO ] 2021-09-21 21:27:50.948 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: C7
+[INFO ] 2021-09-21 21:27:50.948 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D0
+[INFO ] 2021-09-21 21:27:50.948 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D1
+[INFO ] 2021-09-21 21:27:50.948 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D2
+[INFO ] 2021-09-21 21:27:50.948 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D3
+[INFO ] 2021-09-21 21:27:50.948 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D4
+[INFO ] 2021-09-21 21:27:50.948 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D5
+[INFO ] 2021-09-21 21:27:50.948 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D6
+[INFO ] 2021-09-21 21:27:50.949 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: D7
+[FATAL] 2021-09-21 21:27:50.963 [main] VendingMachineLoggerTestHelper - This is a fatal message
+[INFO ] 2021-09-21 21:28:55.279 [main] VendingMachine - PAYMENT ADDED: $ 0.0 cents
+[INFO ] 2021-09-21 21:28:55.282 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A0
+[INFO ] 2021-09-21 21:28:55.282 [main] VendingMachine - ADDED: 10 Hersheys, Current Price : $2.25 to Slot: A1
+[INFO ] 2021-09-21 21:28:55.283 [main] VendingMachine - ADDED: 10 Hersheys Almond, Current Price : $1.80 to Slot: A2
+[INFO ] 2021-09-21 21:28:55.283 [main] VendingMachine - ADDED: 10 Hersheys Special Dark, Current Price : $1.75 to Slot: A3
+[INFO ] 2021-09-21 21:28:55.283 [main] VendingMachine - ADDED: 10 Reese's, Current Price : $1.05 to Slot: A4
+[INFO ] 2021-09-21 21:28:55.283 [main] VendingMachine - ADDED: 10 Nutrageous, Current Price : $1.30 to Slot: A5
+[INFO ] 2021-09-21 21:28:55.283 [main] VendingMachine - ADDED: 10 Baby Ruth, Current Price : $2.50 to Slot: A6
+[INFO ] 2021-09-21 21:28:55.283 [main] VendingMachine - ADDED: 10 Milky Way, Current Price : $1.00 to Slot: A7
+[INFO ] 2021-09-21 21:28:55.283 [main] VendingMachine - ADDED: 10 M&M, Current Price : $1.25 to Slot: B0
+[INFO ] 2021-09-21 21:34:01.438 [main] VendingMachine - PAYMENT ADDED: $ 0.0 cents
+[INFO ] 2021-09-21 21:34:01.440 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A0
+[INFO ] 2021-09-21 21:34:01.440 [main] VendingMachine - ADDED: 10 Hersheys, Current Price : $2.25 to Slot: A1
+[INFO ] 2021-09-21 21:34:01.440 [main] VendingMachine - ADDED: 10 Hersheys Almond, Current Price : $1.80 to Slot: A2
+[INFO ] 2021-09-21 21:34:01.440 [main] VendingMachine - ADDED: 10 Hersheys Special Dark, Current Price : $1.75 to Slot: A3
+[INFO ] 2021-09-21 21:34:01.440 [main] VendingMachine - ADDED: 10 Reese's, Current Price : $1.05 to Slot: A4
+[INFO ] 2021-09-21 21:34:01.441 [main] VendingMachine - ADDED: 10 Nutrageous, Current Price : $1.30 to Slot: A5
+[INFO ] 2021-09-21 21:34:01.441 [main] VendingMachine - ADDED: 10 Baby Ruth, Current Price : $2.50 to Slot: A6
+[INFO ] 2021-09-21 21:34:01.441 [main] VendingMachine - ADDED: 10 Milky Way, Current Price : $1.00 to Slot: A7
+[INFO ] 2021-09-21 21:34:01.441 [main] VendingMachine - ADDED: 10 M&M, Current Price : $1.25 to Slot: B0
+[INFO ] 2021-09-21 21:34:01.441 [main] VendingMachine - ADDED: 0 Empty, Current Price : $0.00 to Slot: B1
+[INFO ] 2021-09-21 21:36:07.466 [main] VendingMachine - PAYMENT ADDED: $ 0.0 cents
+[INFO ] 2021-09-21 21:36:07.468 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A0
+[INFO ] 2021-09-21 21:36:07.468 [main] VendingMachine - ADDED: 10 Hersheys, Current Price : $2.25 to Slot: A1
+[INFO ] 2021-09-21 21:36:07.468 [main] VendingMachine - ADDED: 10 Hersheys Almond, Current Price : $1.80 to Slot: A2
+[INFO ] 2021-09-21 21:36:07.468 [main] VendingMachine - ADDED: 10 Hersheys Special Dark, Current Price : $1.75 to Slot: A3
+[INFO ] 2021-09-21 21:36:07.468 [main] VendingMachine - ADDED: 10 Reese's, Current Price : $1.05 to Slot: A4
+[INFO ] 2021-09-21 21:36:07.469 [main] VendingMachine - ADDED: 10 Nutrageous, Current Price : $1.30 to Slot: A5
+[INFO ] 2021-09-21 21:36:07.469 [main] VendingMachine - ADDED: 10 Baby Ruth, Current Price : $2.50 to Slot: A6
+[INFO ] 2021-09-21 21:36:07.469 [main] VendingMachine - ADDED: 10 Milky Way, Current Price : $1.00 to Slot: A7
+[INFO ] 2021-09-21 21:36:07.469 [main] VendingMachine - ADDED: 10 M&M, Current Price : $1.25 to Slot: B0
+[INFO ] 2021-09-21 21:36:07.485 [main] VendingMachine - PAYMENT ADDED: $ 0.0 cents
+[INFO ] 2021-09-21 21:36:07.486 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A0
+[INFO ] 2021-09-21 21:36:07.486 [main] VendingMachine - ADDED: 10 Hersheys, Current Price : $2.25 to Slot: A1
+[INFO ] 2021-09-21 21:36:07.486 [main] VendingMachine - ADDED: 10 Hersheys Almond, Current Price : $1.80 to Slot: A2
+[INFO ] 2021-09-21 21:36:07.486 [main] VendingMachine - ADDED: 10 Hersheys Special Dark, Current Price : $1.75 to Slot: A3
+[INFO ] 2021-09-21 21:36:07.486 [main] VendingMachine - ADDED: 10 Reese's, Current Price : $1.05 to Slot: A4
+[INFO ] 2021-09-21 21:36:07.486 [main] VendingMachine - ADDED: 10 Nutrageous, Current Price : $1.30 to Slot: A5
+[INFO ] 2021-09-21 21:36:07.486 [main] VendingMachine - ADDED: 10 Baby Ruth, Current Price : $2.50 to Slot: A6
+[INFO ] 2021-09-21 21:36:07.486 [main] VendingMachine - ADDED: 10 Milky Way, Current Price : $1.00 to Slot: A7
+[INFO ] 2021-09-21 21:36:07.486 [main] VendingMachine - ADDED: 10 M&M, Current Price : $1.25 to Slot: B0
+[FATAL] 2021-09-21 21:36:07.501 [main] VendingMachineLoggerTestHelper - This is a fatal message
+[INFO ] 2021-09-21 22:12:24.079 [main] VendingMachine - PAYMENT ADDED: $ 0.0 cents
+[INFO ] 2021-09-21 22:12:24.081 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A0
+[INFO ] 2021-09-21 22:12:24.081 [main] VendingMachine - ADDED: 10 Hersheys, Current Price : $2.25 to Slot: A1
+[INFO ] 2021-09-21 22:12:24.081 [main] VendingMachine - ADDED: 10 Hersheys Almond, Current Price : $1.80 to Slot: A2
+[INFO ] 2021-09-21 22:12:24.081 [main] VendingMachine - ADDED: 10 Hersheys Special Dark, Current Price : $1.75 to Slot: A3
+[INFO ] 2021-09-21 22:12:24.082 [main] VendingMachine - ADDED: 10 Reese's, Current Price : $1.05 to Slot: A4
+[INFO ] 2021-09-21 22:12:24.082 [main] VendingMachine - ADDED: 10 Nutrageous, Current Price : $1.30 to Slot: A5
+[INFO ] 2021-09-21 22:12:24.082 [main] VendingMachine - ADDED: 10 Baby Ruth, Current Price : $2.50 to Slot: A6
+[INFO ] 2021-09-21 22:12:24.082 [main] VendingMachine - ADDED: 10 Milky Way, Current Price : $1.00 to Slot: A7
+[INFO ] 2021-09-21 22:12:24.082 [main] VendingMachine - ADDED: 10 M&M, Current Price : $1.25 to Slot: B0
+[INFO ] 2021-09-21 22:12:24.097 [main] VendingMachine - PAYMENT ADDED: $ 0.0 cents
+[INFO ] 2021-09-21 22:12:24.097 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A0
+[INFO ] 2021-09-21 22:12:24.097 [main] VendingMachine - ADDED: 10 Hersheys, Current Price : $2.25 to Slot: A1
+[INFO ] 2021-09-21 22:12:24.097 [main] VendingMachine - ADDED: 10 Hersheys Almond, Current Price : $1.80 to Slot: A2
+[INFO ] 2021-09-21 22:12:24.097 [main] VendingMachine - ADDED: 10 Hersheys Special Dark, Current Price : $1.75 to Slot: A3
+[INFO ] 2021-09-21 22:12:24.098 [main] VendingMachine - ADDED: 10 Reese's, Current Price : $1.05 to Slot: A4
+[INFO ] 2021-09-21 22:12:24.098 [main] VendingMachine - ADDED: 10 Nutrageous, Current Price : $1.30 to Slot: A5
+[INFO ] 2021-09-21 22:12:24.098 [main] VendingMachine - ADDED: 10 Baby Ruth, Current Price : $2.50 to Slot: A6
+[INFO ] 2021-09-21 22:12:24.098 [main] VendingMachine - ADDED: 10 Milky Way, Current Price : $1.00 to Slot: A7
+[INFO ] 2021-09-21 22:12:24.098 [main] VendingMachine - ADDED: 10 M&M, Current Price : $1.25 to Slot: B0
+[FATAL] 2021-09-21 22:12:24.112 [main] VendingMachineLoggerTestHelper - This is a fatal message
+[INFO ] 2021-09-21 22:40:34.741 [main] VendingMachine - PAYMENT ADDED: $ 0.0 cents
+[INFO ] 2021-09-21 22:40:34.743 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A0
+[INFO ] 2021-09-21 22:40:34.743 [main] VendingMachine - ADDED: 10 Hersheys, Current Price : $2.25 to Slot: A1
+[INFO ] 2021-09-21 22:40:34.744 [main] VendingMachine - ADDED: 10 Hersheys Almond, Current Price : $1.80 to Slot: A2
+[INFO ] 2021-09-21 22:40:34.744 [main] VendingMachine - ADDED: 10 Hersheys Special Dark, Current Price : $1.75 to Slot: A3
+[INFO ] 2021-09-21 22:40:34.744 [main] VendingMachine - ADDED: 10 Reese's, Current Price : $1.05 to Slot: A4
+[INFO ] 2021-09-21 22:40:34.744 [main] VendingMachine - ADDED: 10 Nutrageous, Current Price : $1.30 to Slot: A5
+[INFO ] 2021-09-21 22:40:34.744 [main] VendingMachine - ADDED: 10 Baby Ruth, Current Price : $2.50 to Slot: A6
+[INFO ] 2021-09-21 22:40:34.744 [main] VendingMachine - ADDED: 10 Milky Way, Current Price : $1.00 to Slot: A7
+[INFO ] 2021-09-21 22:40:34.744 [main] VendingMachine - ADDED: 10 M&M, Current Price : $1.25 to Slot: B0
+[INFO ] 2021-09-21 22:40:34.751 [main] VendingMachine - PAYMENT ADDED: $ 10.0 cents
+[INFO ] 2021-09-21 22:42:44.499 [main] VendingMachine - PAYMENT ADDED: $ 0.0 cents
+[INFO ] 2021-09-21 22:42:44.501 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A0
+[INFO ] 2021-09-21 22:42:44.501 [main] VendingMachine - ADDED: 10 Hersheys, Current Price : $2.25 to Slot: A1
+[INFO ] 2021-09-21 22:42:44.501 [main] VendingMachine - ADDED: 10 Hersheys Almond, Current Price : $1.80 to Slot: A2
+[INFO ] 2021-09-21 22:42:44.501 [main] VendingMachine - ADDED: 10 Hersheys Special Dark, Current Price : $1.75 to Slot: A3
+[INFO ] 2021-09-21 22:42:44.501 [main] VendingMachine - ADDED: 10 Reese's, Current Price : $1.05 to Slot: A4
+[INFO ] 2021-09-21 22:42:44.501 [main] VendingMachine - ADDED: 10 Nutrageous, Current Price : $1.30 to Slot: A5
+[INFO ] 2021-09-21 22:42:44.501 [main] VendingMachine - ADDED: 10 Baby Ruth, Current Price : $2.50 to Slot: A6
+[INFO ] 2021-09-21 22:42:44.501 [main] VendingMachine - ADDED: 10 Milky Way, Current Price : $1.00 to Slot: A7
+[INFO ] 2021-09-21 22:42:44.502 [main] VendingMachine - ADDED: 10 M&M, Current Price : $1.25 to Slot: B0
+[INFO ] 2021-09-21 22:42:44.507 [main] VendingMachine - PAYMENT ADDED: $ 10.0 cents
+[INFO ] 2021-09-21 22:43:00.080 [main] VendingMachine - PAYMENT ADDED: $ 0.0 cents
+[INFO ] 2021-09-21 22:43:00.082 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A0
+[INFO ] 2021-09-21 22:43:00.082 [main] VendingMachine - ADDED: 10 Hersheys, Current Price : $2.25 to Slot: A1
+[INFO ] 2021-09-21 22:43:00.082 [main] VendingMachine - ADDED: 10 Hersheys Almond, Current Price : $1.80 to Slot: A2
+[INFO ] 2021-09-21 22:43:00.082 [main] VendingMachine - ADDED: 10 Hersheys Special Dark, Current Price : $1.75 to Slot: A3
+[INFO ] 2021-09-21 22:43:00.082 [main] VendingMachine - ADDED: 10 Reese's, Current Price : $1.05 to Slot: A4
+[INFO ] 2021-09-21 22:43:00.082 [main] VendingMachine - ADDED: 10 Nutrageous, Current Price : $1.30 to Slot: A5
+[INFO ] 2021-09-21 22:43:00.082 [main] VendingMachine - ADDED: 10 Baby Ruth, Current Price : $2.50 to Slot: A6
+[INFO ] 2021-09-21 22:43:00.082 [main] VendingMachine - ADDED: 10 Milky Way, Current Price : $1.00 to Slot: A7
+[INFO ] 2021-09-21 22:43:00.083 [main] VendingMachine - ADDED: 10 M&M, Current Price : $1.25 to Slot: B0
+[INFO ] 2021-09-21 22:43:00.089 [main] VendingMachine - PAYMENT ADDED: $ 10.0 cents
+[INFO ] 2021-09-21 22:43:00.101 [main] VendingMachine - PAYMENT ADDED: $ 0.0 cents
+[INFO ] 2021-09-21 22:43:00.102 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A0
+[INFO ] 2021-09-21 22:43:00.102 [main] VendingMachine - ADDED: 10 Hersheys, Current Price : $2.25 to Slot: A1
+[INFO ] 2021-09-21 22:43:00.102 [main] VendingMachine - ADDED: 10 Hersheys Almond, Current Price : $1.80 to Slot: A2
+[INFO ] 2021-09-21 22:43:00.102 [main] VendingMachine - ADDED: 10 Hersheys Special Dark, Current Price : $1.75 to Slot: A3
+[INFO ] 2021-09-21 22:43:00.102 [main] VendingMachine - ADDED: 10 Reese's, Current Price : $1.05 to Slot: A4
+[INFO ] 2021-09-21 22:43:00.102 [main] VendingMachine - ADDED: 10 Nutrageous, Current Price : $1.30 to Slot: A5
+[INFO ] 2021-09-21 22:43:00.103 [main] VendingMachine - ADDED: 10 Baby Ruth, Current Price : $2.50 to Slot: A6
+[INFO ] 2021-09-21 22:43:00.103 [main] VendingMachine - ADDED: 10 Milky Way, Current Price : $1.00 to Slot: A7
+[INFO ] 2021-09-21 22:43:00.103 [main] VendingMachine - ADDED: 10 M&M, Current Price : $1.25 to Slot: B0
+[FATAL] 2021-09-21 22:43:00.120 [main] VendingMachineLoggerTestHelper - This is a fatal message

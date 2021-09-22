@@ -5,15 +5,25 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.io.File;
 import java.util.Scanner;
 
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 /**
  * Unit test for simple App.
  */
 class AppTest {
+    private static VendingMachine vm;
+    private static Payment payment;
+
     /**
      * Rigorous Test.`
      */
+
+    @BeforeAll
+    public static void setupObjects() {
+        vm = new VendingMachine();
+        payment = new CoinPayment(1000);
+    }
 
     @Test
     public void shouldParseJson() throws Exception {
@@ -39,5 +49,30 @@ class AppTest {
         }
         String checkValue = "This is a fatal message";
         assertEquals(data.substring(data.length() - checkValue.length()), checkValue);
+    }
+
+    @Test
+    public void shouldFillandRetrieveItemsFromHashMap() {
+        VendingMachine vm = new VendingMachine();
+        assertEquals("Snickers", vm.lookupItem("A0").getName());
+    }
+
+    @Test
+    public void shouldConvertToCents() {
+        Item item = new Item("Text", 1, "$1.00");
+        assertEquals(100, item.getPriceinCents());
+    }
+
+    @Test
+    public void shouldAddAmountToPayment() {
+        vm.setupPayment(1000);
+        int newMoneyValye = vm.addToPaymentAmount(100);
+        assertEquals(newMoneyValye, vm.getPaymentAmount());
+
+    }
+
+    @Test
+    public void shouldPrintProductList() {
+        vm.printProductList();
     }
 }

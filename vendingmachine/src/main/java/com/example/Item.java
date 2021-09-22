@@ -3,15 +3,15 @@ package com.example;
 /**
  * Product
  */
-public class Items {
+public class Item {
     private String name;
     private int amount;
     private String price;
 
-    public Items() {
+    public Item() {
     }
 
-    public Items(String name, int amount, String price) {
+    public Item(String name, int amount, String price) {
         this.name = name;
         this.amount = amount;
         this.price = price;
@@ -39,6 +39,12 @@ public class Items {
 
     public void setPrice(String price) {
         this.price = price;
+    }
+
+    public int getPriceinCents() {
+        String stringPrice = getPrice().replace("$", "").replace(".", "");
+        return Integer.valueOf(stringPrice);
+
     }
 
     @Override

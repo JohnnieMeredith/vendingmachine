@@ -4,12 +4,12 @@ import java.util.Arrays;
 
 public class JsonInputReaderPOJO {
     private Config config;
-    private Items[] items;
+    private Item[] items;
 
     public JsonInputReaderPOJO() {
     }
 
-    public JsonInputReaderPOJO(Config config, Items[] items) {
+    public JsonInputReaderPOJO(Config config, Item[] items) {
         this.config = config;
         this.items = items;
     }
@@ -22,11 +22,11 @@ public class JsonInputReaderPOJO {
         this.config = config;
     }
 
-    public Items[] getItems() {
+    public Item[] getItems() {
         return this.items;
     }
 
-    public void setItems(Items[] items) {
+    public void setItems(Item[] items) {
         this.items = items;
     }
 
