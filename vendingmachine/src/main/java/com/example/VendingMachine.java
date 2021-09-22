@@ -21,7 +21,6 @@ public class VendingMachine {
 
     public VendingMachine(String path) {
         this.pathToJson = path;
-        // String path = "vendingmachine\\src\\main\\resources\\input.json";
         JsonInputReaderPOJO jsonInputReaderPOJO = MyJson.buildJsonInputReaderPOJO(pathToJson);
         Item[] productList = jsonInputReaderPOJO.getItems();
         Config config = jsonInputReaderPOJO.getConfig();
@@ -31,20 +30,64 @@ public class VendingMachine {
 
     }
 
+    /**
+     * START SETTERS AND GETTERS
+     */
+    public int getColumns() {
+        return this.columns;
+    }
+
+    public void setColumns(int columns) {
+        this.columns = columns;
+    }
+
+    public int getRows() {
+        return this.rows;
+    }
+
+    public void setRows(int rows) {
+        this.rows = rows;
+    }
+
+    public LinkedHashMap<String, Item> getProductLayout() {
+        return this.productLayout;
+    }
+
+    public void setProductLayout(LinkedHashMap<String, Item> productLayout) {
+        this.productLayout = productLayout;
+    }
+
+    public Payment getPaymentReceived() {
+        return this.paymentReceived;
+    }
+
+    public void setPaymentReceived(Payment paymentReceived) {
+        this.paymentReceived = paymentReceived;
+    }
+
+    public Logger getLogger() {
+        return this.logger;
+    }
+
+    public void setLogger(Logger logger) {
+        this.logger = logger;
+    }
+
+    public String getPathToJson() {
+        return this.pathToJson;
+    }
+
+    public void setPathToJson(String pathToJson) {
+        this.pathToJson = pathToJson;
+    }
+
+    /**
+     * START SETTERS AND GETTERS
+     */
+
     public void setupColsRows(Config config) {
         this.rows = config.getRows();
         this.columns = Integer.valueOf(config.getColumns());
-
-    }
-
-    public char convertIntToChar(int convertChar) {
-        char c = 'A';
-        int numberConversion = c + convertChar;
-        return (char) numberConversion;
-    }
-
-    public int convertCharToInt(char convertInt) {
-        return (int) convertInt - (int) 'A';
 
     }
 
@@ -92,40 +135,26 @@ public class VendingMachine {
         writeToScreen("\n");
     }
 
-    public int getRows() {
-        return this.rows;
-    }
-
-    public int getColumns() {
-        return this.columns;
-    }
-
-    public Payment getPayment() {
-        return this.paymentReceived;
-    }
-
     public Item lookupItem(String key) {
         // TODO: handle bad input
         return productLayout.get(key);
 
     }
 
-    public void writeToScreen(String s) {
-        System.out.print(s);
-    }
-
     public void promptPayment() {
         System.out.println("Enter payment amount in US Dollars: ");
-        int x = 0;
+        double x = 0;
         Scanner sc = new Scanner(System.in);
-        while (sc.hasNextLine()) {
-            x = sc.nextInt();
+        while (sc.hasNextDouble()) {
+            x = sc.nextDouble();
             if (sc.nextLine().length() == 0) {
                 break;
-            }
 
+            }
         }
-        setupPayment(x);
+        // sc.close();
+        int totalAsCents = (int) (x * 100);
+        setupPayment(totalAsCents);
     }
 
     public void setupPayment(int amount) {
@@ -138,6 +167,10 @@ public class VendingMachine {
 
     public void setPayment(Payment payment) {
         this.paymentReceived = payment;
+    }
+
+    public Payment getPayment() {
+        return this.paymentReceived;
     }
 
     public int addToPaymentAmount(int amount) {
@@ -191,14 +224,17 @@ public class VendingMachine {
                 } else {
 
                     logger.info("FAILED PURCHASE OF {} at {} reason: Insufficient Funds", name, price);
+                    writeToScreen("Insufficient funds for that item.");
                     return false;
                 }
             } else {
                 logger.info("FAILED PURCHASE OF %s reason: OUT OF STOCK", name);
+                writeToScreen("Sorry that item is out of stock.");
                 return false;
             }
         } else {
             logger.info("FAILED PURCHASE reason: NO SUCH ITEM");
+            writeToScreen("Please Select a valid item.");
             return false;
         }
     }
@@ -214,6 +250,32 @@ public class VendingMachine {
         }
     }
 
+    public void refundMoney(String money) {
+        logger.info("REFUND: ${}.", money);
+        ((CoinPayment) this.paymentReceived).setTotal(0);
+        writeToScreen(String.format("Refunded $%s\n", money));
+        logger.info("END OF TRANSACTION\n");
+    }
+
+    /**
+     * 
+     * Start Convenience Methhods
+     */
+    public char convertIntToChar(int convertChar) {
+        char c = 'A';
+        int numberConversion = c + convertChar;
+        return (char) numberConversion;
+    }
+
+    public int convertCharToInt(char convertInt) {
+        return (int) convertInt - (int) 'A';
+
+    }
+
+    public void writeToScreen(String s) {
+        System.out.print(s);
+    }
+
     public String getStringValueOfMoney(int money) {
         StringBuilder stringBuilder = new StringBuilder();
         DecimalFormat moneyFormat = new DecimalFormat("#.00");
@@ -222,16 +284,14 @@ public class VendingMachine {
         return stringBuilder.toString();
     }
 
-    public void refundMoney(String money) {
-        logger.info("REFUND: ${}.", money);
-        ((CoinPayment) this.paymentReceived).setTotal(0);
-        writeToScreen(String.format("Refunded $%s\n", money));
-        logger.info("END OF TRANSACTION");
-    }
+    /**
+     * End Convenience Metthods
+     */
 
     public static void main(String[] args) {
+        VendingMachine vendingMachine = new VendingMachine("vendingmachine\\src\\main\\resources\\input.json");
         while (true) {
-            VendingMachine vendingMachine = new VendingMachine("vendingmachine\\src\\main\\resources\\input.json");
+
             vendingMachine.printProductList();
             vendingMachine.promptPayment();
             vendingMachine.getUserSelection();
