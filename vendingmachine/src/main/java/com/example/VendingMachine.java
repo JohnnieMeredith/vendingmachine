@@ -3,6 +3,7 @@ package com.example;
 import java.text.DecimalFormat;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Optional;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
@@ -117,22 +118,26 @@ public class VendingMachine {
         }
     }
 
-    public void printProductList() {
+    public String printProductList() {
         int columnIndex = 1;
-
+        StringBuilder productListString = new StringBuilder();
         for (Map.Entry<String, Item> entry : productLayout.entrySet()) {
             String pos = entry.getKey();
             Item item = entry.getValue();
-
+            productListString.append(
+                    String.format("[%s] %s-%s Qty:%s ", pos, item.getName(), item.getPrice(), item.getAmount()));
             writeToScreen(
-                    String.format("[%s] %s - %s : %s Left\t", pos, item.getName(), item.getPrice(), item.getAmount()));
+                    String.format("[%s] %s - %s : Qty:%s ", pos, item.getName(), item.getPrice(), item.getAmount()));
             if (columnIndex % getColumns() == 0) {
+                productListString.append("\n");
                 writeToScreen("\n");
             }
             columnIndex++;
 
         }
+        productListString.append("\n");
         writeToScreen("\n");
+        return productListString.toString();
     }
 
     public Item lookupItem(String key) {
@@ -204,10 +209,14 @@ public class VendingMachine {
 
     }
 
-    public void getUserSelection(String selection) {
+    public Optional<Item> getUserSelection(String selection) {
+        Optional<Item> item = null;
         if (Pattern.matches("[A-Z][0-9]", selection)) {
-            buyItem(lookupItem(selection));
-        }
+            item = Optional.of(lookupItem(selection));
+        } else
+            item = Optional.ofNullable(null);
+        return item;
+
     }
 
     public boolean buyItem(Item item) {
@@ -218,6 +227,7 @@ public class VendingMachine {
                 if (paymentReceived.payAmount(item.getPriceinCents())) {
                     System.out.println(item.getPriceinCents());
                     logger.info("SOLD: 1 {} at {}", name, price);
+                    // getPayment().payAmount(item.getPriceinCents());
                     dispenseItem(item);
 
                     return true;
@@ -241,8 +251,9 @@ public class VendingMachine {
 
     public void dispenseItem(Item item) {
         String itemName = item.getName();
-        int tempAmount = item.getAmount() - 1;
+        int tempAmount = (item.getAmount() - 1);
         item.setAmount(tempAmount);
+
         writeToScreen(String.format("Dispensing %s.", itemName));
         logger.info("DISPENSED: 1 {}.", itemName);
         if (item.getAmount() == 0) {
@@ -250,11 +261,13 @@ public class VendingMachine {
         }
     }
 
-    public void refundMoney(String money) {
+    public String refundMoney(String money) {
         logger.info("REFUND: ${}.", money);
         ((CoinPayment) this.paymentReceived).setTotal(0);
         writeToScreen(String.format("Refunded $%s\n", money));
+
         logger.info("END OF TRANSACTION\n");
+        return money;
     }
 
     /**
@@ -282,6 +295,22 @@ public class VendingMachine {
         stringBuilder.append(moneyFormat.format(((double) money / 100)));
 
         return stringBuilder.toString();
+    }
+
+    public int getIntValueOfString(String amount) {
+        StringBuilder sb = new StringBuilder();
+        if (!amount.contains(".")) {
+            sb.append(amount);
+            sb.append(".00");
+        } else
+            sb.append(amount);
+        String assuredString = sb.toString();
+        String parsed = assuredString.strip().replace("$", "");
+        String[] split = parsed.split("\\.");
+        if (split[0].length() == 0) {
+            return Integer.valueOf((parsed.replace(".", "")));
+        } else
+            return (Integer.valueOf(split[0]) * 100) + Integer.valueOf(split[1]);
     }
 
     /**

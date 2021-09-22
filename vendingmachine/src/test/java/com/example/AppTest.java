@@ -101,6 +101,21 @@ class AppTest {
     }
 
     @Test
+    void shouldConvertIntToStringMoney() {
+        assertEquals(vm.getIntValueOfString("$1"), 100);
+        assertEquals(vm.getIntValueOfString("$.15"), 15);
+        assertEquals(vm.getIntValueOfString("$0"), 0);
+    }
+
+    @Test
+    void shouldConvertStringMoneytoCents() {
+        assertEquals("1.00", vm.getStringValueOfMoney(100));
+        assertEquals(".00", vm.getStringValueOfMoney(0));
+        assertEquals(".00", vm.getStringValueOfMoney(0));
+        assertEquals("15.15", vm.getStringValueOfMoney(1515));
+    }
+
+    @Test
     void shouldGetUserSelection() {
         // vm.getUserSelection();
     }
