@@ -11,7 +11,7 @@ public class CoinPayment implements Payment {
         return this.total;
     }
 
-    private void setTotal(int total) {
+    public void setTotal(int total) {
         this.total = total;
     }
 
@@ -23,7 +23,7 @@ public class CoinPayment implements Payment {
 
     public boolean payAmount(int amount) {
         if (getTotal() >= amount) {
-            int leftOver = getTotal() - amount;
+            int leftOver = (getTotal() - amount);
             setTotal(leftOver);
             return true;
         } else

@@ -21,7 +21,8 @@ class AppTest {
 
     @BeforeAll
     public static void setupObjects() {
-        vm = new VendingMachine();
+        String path = "..\\vendingmachine\\src\\main\\resources\\input.json";
+        vm = new VendingMachine(path);
         payment = new CoinPayment(1000);
     }
 
@@ -53,7 +54,7 @@ class AppTest {
 
     @Test
     public void shouldFillandRetrieveItemsFromHashMap() {
-        VendingMachine vm = new VendingMachine();
+        // VendingMachine vm = new VendingMachine();
         assertEquals("Snickers", vm.lookupItem("A0").getName());
     }
 
@@ -72,7 +73,35 @@ class AppTest {
     }
 
     @Test
+    public void shouldLookupItem() {
+
+        assertEquals("Snickers", vm.lookupItem("A0").getName());
+    }
+
+    @Test
     public void shouldPrintProductList() {
         vm.printProductList();
+    }
+
+    @Test
+    public void shouldConvertCharToInt() {
+
+        assertEquals(0, vm.convertCharToInt('A'));
+    }
+
+    @Test
+    void shouldConvertIntToChar() {
+
+        assertEquals('A', vm.convertIntToChar(0));
+    }
+
+    @Test
+    void shouldReturnStringValueOfMoney() {
+        assertEquals("10.00", vm.getStringValueOfMoney(1000));
+    }
+
+    @Test
+    void shouldGetUserSelection() {
+        // vm.getUserSelection();
     }
 }
