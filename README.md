@@ -1,12 +1,14 @@
 # Java Vending Machine
 
-#### By Johnnie Meredith
+#### **Author:** Johnnie Meredith
+
+##### **Last Updated:** Sept 23, 2021
 
 ---
 
 ![](https://img.shields.io/github/stars/JohnnieMeredith/vendingmachine.svg) ![](https://img.shields.io/github/forks/JohnnieMeredith/vendingmachine.svg) ![](https://img.shields.io/github/tag/JohnnieMeredith/vendingmachine.svg) ![](https://img.shields.io/github/issues/JohnnieMeredith/vendingmachine.svg)
 
-**Table of Contents**
+# **Table of Contents**
 
 - [Instructions](https://github.com/JohnnieMeredith/vendingmachine/blob/master/README.md#instructions)
   - [Installation and running](https://github.com/JohnnieMeredith/vendingmachine/blob/master/README.md#installation-and-running)
@@ -23,9 +25,14 @@
 - [Design](https://github.com/JohnnieMeredith/vendingmachine/blob/master/README.md#design)
 - [Implementation](https://github.com/JohnnieMeredith/vendingmachine/blob/master/README.md#implementation)
 
+
+
 ## Instructions
+<br>
+<br>
 
 ### Installation and Running
+<br>
 
 #### Method 1 - Easiest
 
@@ -41,6 +48,8 @@
 
 - From that directory with the command line run:
   > java -jar vendingmachine-1.0-SNAPSHOT-jar-with-dependencies.jar
+
+<br>
 
 #### Method 2 - Maven
 
@@ -72,12 +81,15 @@ and a button which submits the amount to be added. The next row has a text area 
 letters in the box before each entry (A0 in our example).
 
 ## Design
+<br>
 
 I used **Object Oriented Design** and **Test Driven Development** while coding this project. I initiated my git repository. My first task in design was to come up with a model. That meant taking some time to think about the way an actual vending machine works. Deciding what parts were important and what each part did. I thought about how I could abstract the concept into object form. First, I decided to model my data objects. **Abstraction** is a core concept of OOP and doing it wrong can have lasting consequences for a project. Setting up your data objects correctly allows you to keep separation of concerns more strictly. Using **Encapsulation**, I made sure to hide my variable and only expose them through getters and setters, while also making sure to only expose methods which other classes need to use. The two concepts that fit nicely into this concept were payments and the items to be sold. While I knew that I would only take cash payment now, I decided that payment should be an interface for future adding of credit card or online payments. Next I knew I would need something to handle the Json, business logic for the machine, and planned for the case of creating a graphical user interface. Next, I went through each of my planned objects and tried to anticipate what data they would hold and what tasks they would need to accomplish. After getting a good idea of what direction to go, I planned my tools. I would use Maven to automate build tasks and tests. My choice of editor is Visual Studio Code. I have experience with Swing making that the obvious choice for the graphical user interface. I researched Json libraries and decided that Jackson would be the choice for this project.
 
 ## Implementation
+<br>
 
 With less time than I would like I would follow the age old advice of "KEEP IT SIMPLE". To ensure another OOP principle **Encapsulation**, The first classes developed were the data classes. As an example of **Polymorphism** I made the Payment class an interface. Interfaces are promises that any class that implements them will have certain behaviors defined by the interface. In this case I decided Payment was a good option in case I wanted to add other payment types beside cash, such as Credit Card, mobile, or online payments. For methods not including getters and setters I would write the test first. Throughout the projce I made sure to make frequent commits and pushes to my git repository and Github. My next challenge was importing the Json. I included the Jackson library as a dependency in the Maven pom.xml.  Inspecting the Json text directly helped in deciding how to parse and import int into my program. It is setup with a config object followed by an array of item objects. Therefore I designed a class with both these things and mapped the Json to that single object. Next, I researched logging libraries. I quickly decided on log4j2. I learned about it quickly. The hardest part of using log4j2 is writing the configuration file. After adding it as a dependency and writing a test, I started developing a command line version of the app first. Having tests made sure that I knew when I broke something making changing behavior much easier. The behavior of my app would be as follows.
+<br>
 
 - Load Json into an object
 
@@ -99,6 +111,8 @@ With less time than I would like I would follow the age old advice of "KEEP IT S
 
 - Ready for another transaction
 
+<br>
+
 After completion I made the decision to start building a GUI version. This meant refactoring some of the methods I used in the console app to communicate with the user through the GUI instead of printing to console and reading console input. Having the tests written and running them after every change made this process much easier. I used the Apache Netbeans IDE designer to generate the boilerplate code for the components and layout. Next came bugfixes. While I did not have many, there were instances where my test coverage missed an edge case. This was mostly the case with taking unforseen user input. I wanted the user to be able to enter the amount of money in any way that I could think of. I made additional test cases and quickly found my error. Finally, I made the UI to update the json used for the config and product layout. Without specifications, I thought that two ways of changing the file would work for now. I had a text area that Json could be directly written in and a text field which takes a file path and writes that file over the location of the original Json file. With some final testing and bugfixes, the project is complete.
 
 ### Tools and Technologies
@@ -116,57 +130,43 @@ After completion I made the decision to start building a GUI version. This meant
 
 #### com\example
 
-##### App
-
-The main class for this project that simulates the operation of a vending machine. It reads the items and layout from a Json file. Creates GUI and logic.
+- App -The main class for this project that simulates the operation of a vending machine. It reads the items and layout from a Json file. Creates GUI and logic.
 
 #### com\example\controller
 
-##### VendingMachine
-
-The logic for our vending machine.
+- VendingMachine - The logic for our vending machine.
 
 #### com\example\model
 
-##### CoinPayment
+- CoinPayment - An implementation of payment representing cash payments.
 
-An implementation of payment representing cash payments.
+- Config - An object to hold the rows and columns from our Json.
 
-##### Config
+- Item - An object modelling the products for sale imported from our Json.
 
-An object to hold the rows and columns from our Json.
-
-##### Item
-
-An object modelling the products for sale imported from our Json.
-
-##### Payment
-
-An interface modelling a payment for a vending machine. It guarantees 3 behaviors. getTotal returns the current amount of payment. addAmount adds money to the total. payAmount pays for a product.
+- Payment - An interface modelling a payment for a vending machine. It guarantees 3 behaviors. getTotal returns the current amount of payment. addAmount adds money to the total. payAmount pays for a product.
 
 #### com\example\utilities
 
-##### JsonInputReaderPOJO
+- JsonInputReaderPOJO - Java object with variables and data structures to which we can map our Json input.
 
-Java object with variables and data structures to which we can map our Json input.
+- MyJson - Class that reads the input.json and maps it to our object.
 
-##### MyJson
-
-Class that reads the input.json and maps it to our object.
-
-##### VendingMachineLoggerTestHelper
-
-Class for setting up and testing our log4j2 logger.
+- VendingMachineLoggerTestHelper - Class for setting up and testing our log4j2 logger.
 
 #### com\example\view
 
-##### ProductUpdateGUI
+- ProductUpdateGUI - GUI which allows writing Json or loading a new Json file to our vending machine.
 
-GUI which allows writing Json or loading a new Json file to our vending machine.
+- VendingMachineGUI - Main view for our app which simulates a users experience with a vending machine.
 
-##### VendingMachineGUI
+#### \logs
 
-Main view for our app which simulates a users experience with a vending machine.
+- proerties.log - Text log file
+
+#### \resources
+
+- input.json - Source of the Json to be parsed 
 
 ### Interesting Decisions
 
