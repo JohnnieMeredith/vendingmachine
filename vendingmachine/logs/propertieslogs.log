@@ -1218,3 +1218,4 @@
 [INFO ] 2021-09-23 00:11:23.308 [main] VendingMachine - PAYMENT PROCESSED: For Qty: 1 Snickers at $1.35
 [INFO ] 2021-09-23 00:11:23.308 [main] VendingMachine - DISPENSED: 1 Snickers.
 [INFO ] 2021-09-23 00:11:23.311 [main] VendingMachine - FAILED PURCHASE OF Snickers at $1.35 reason: Insufficient Funds
+[ERROR] 2021-09-23 09:43:49.282 [main] MyJson - java.io.FileNotFoundException: vendingmachine\src\main\resources\input.json (The system cannot find the path specified)
