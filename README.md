@@ -22,7 +22,7 @@
 
 - Download the project. If using the zip archive, extract it from the archive.
 
-Navigate to the directory containing
+- Navigate to the directory containing
 
 > vendingmachine-1.0-SNAPSHOT-jar-with-dependencies.jar
 
