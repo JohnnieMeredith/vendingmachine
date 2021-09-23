@@ -65,6 +65,7 @@ public class VendingMachineGUI extends javax.swing.JFrame {
         currencyTextField.addFocusListener(new FocusListener() {
             @Override
             public void focusLost(final FocusEvent pE) {
+                // for override
             }
 
             @Override
@@ -78,6 +79,7 @@ public class VendingMachineGUI extends javax.swing.JFrame {
         selectionTextField.addFocusListener(new FocusListener() {
             @Override
             public void focusLost(final FocusEvent pE) {
+                // for override
             }
 
             @Override
@@ -224,20 +226,26 @@ public class VendingMachineGUI extends javax.swing.JFrame {
             Item lookUp;
             if (item.isPresent()) {
                 lookUp = item.get();
-                if (vendingMachine.buyItem(item.get())) {
-                    logger.debug("ITEM SELECTED: Attempting purchase.");
-                    item.ifPresent(value -> dispense(value));
-                    updateProductList();
+                if (lookUp.getAmount() != 0) {
+                    if (vendingMachine.buyItem(item.get())) {
+                        logger.debug("ITEM SELECTED: Attempting purchase.");
+                        item.ifPresent(value -> dispense(value));
+                        updateProductList();
+                    } else {
+                        int owed = vendingMachine.getPaymentAmount() - lookUp.getPriceinCents();
+                        String owedString = vendingMachine.getStringValueOfMoney(owed);
+                        readoutTextField.setText(String.format("Insufficient Funds. %s more needed.", owedString));
+                    }
                 } else {
-                    int owed = vendingMachine.getPaymentAmount() - lookUp.getPriceinCents();
-                    String owedString = vendingMachine.getStringValueOfMoney(owed);
-                    readoutTextField.setText(String.format("Insufficient Funds. %s more needed.", owedString));
+                    readoutTextField.setText("Item out of stock");
                 }
-            } else
+            } else {
                 readoutTextField.setText("Invalid Selection: Unfilled Bay.");
+            }
 
-        } else
+        } else {
             readoutTextField.setText("Invalid Selection: Selection should be a letter followed by a number");
+        }
 
     }
 
@@ -263,10 +271,12 @@ public class VendingMachineGUI extends javax.swing.JFrame {
         String refundText = vendingMachine.getStringValueOfMoney(refund);
         String name = item.getName();
         vendingTextField.setText(name);
-        updateProductList();
         totalLabel.setText("$0.00");
         vendingMachine.refundMoney(refundText);
         readoutTextField.setText(String.format("Dispensing %s and $%s in change.", name, refundText));
+        logger.debug("DISPENSE of {} initiated.", name);
+        logger.debug("REFUND of {} initiated.", refund);
+        updateProductList();
 
     }
 
@@ -275,6 +285,7 @@ public class VendingMachineGUI extends javax.swing.JFrame {
      */
     private void updateProductList() {
         jTextArea1.setText(vendingMachine.printProductList());
+        readoutTextField.setText("Enter payment to proceed...");
         logger.debug("UPDATED: Product List.");
     }
 

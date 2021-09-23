@@ -26,7 +26,6 @@ public class VendingMachine {
 
     private int columns;
     private int rows;
-    // TODO: explain linked Hash map preserves order
     private LinkedHashMap<String, Item> productLayout = new LinkedHashMap<>();
     private Payment paymentReceived;
     private Logger logger = LogManager.getLogger(VendingMachine.class);
@@ -87,6 +86,7 @@ public class VendingMachine {
     public void setupColsRows(Config config) {
         this.rows = config.getRows();
         this.columns = Integer.valueOf(config.getColumns());
+        logger.debug("Rows set to {}, Columns set to {}", getRows(), getColumns());
 
     }
 
@@ -114,7 +114,7 @@ public class VendingMachine {
                     amount = items[next].getAmount();
                     price = items[next].getPrice();
                     productLayout.put(productKey.toString(), items[next]);
-                    logger.info("ADDED: {} {}, Current Price : {} to Slot: {}", amount, name, price, productKey);
+                    logger.debug("ADDED: {} {}, Current Price : {} to Slot: {}", amount, name, price, productKey);
                 }
                 next++;
 
@@ -169,8 +169,8 @@ public class VendingMachine {
         this.paymentReceived = new CoinPayment(amount);
         int dollars = getPaymentAmount() / 100;
         int cents = getPaymentAmount() % 100;
-        logger.info("START OF NEW TRANSACTION");
-        logger.info("PROCESSED PAYMENT: $ {}.{}", dollars, cents);
+        logger.debug("START OF NEW TRANSACTION");
+        logger.debug("PROCESSED PAYMENT: $ {}.{}", dollars, cents);
     }
 
     /**
@@ -181,6 +181,7 @@ public class VendingMachine {
      */
     public int addToPaymentAmount(int amount) {
         this.paymentReceived.addAmount(amount);
+        logger.debug("ADDED CURRENCY: ${}", amount);
         return getPaymentAmount();
 
     }
@@ -198,6 +199,7 @@ public class VendingMachine {
         Optional<Item> item = Optional.ofNullable(null);
         if (Pattern.matches("[A-Z][0-9]", selection)) {
             item = Optional.ofNullable(lookupItem(selection));
+            logger.debug("ITEM LOOKUP: Successful");
         }
         return item;
 
@@ -216,20 +218,20 @@ public class VendingMachine {
             String price = item.getPrice();
             if (item.getAmount() > 0) {
                 if (paymentReceived.payAmount(item.getPriceinCents())) {
-                    logger.info("PAYMENT PROCESSED: For Qty: 1 {} at {}", name, price);
+                    logger.debug("PAYMENT PROCESSED: For Qty: 1 {} at {}", name, price);
                     dispenseItem(item);
                     return true;
                 } else {
 
-                    logger.info("FAILED PURCHASE OF {} at {} reason: Insufficient Funds", name, price);
+                    logger.debug("FAILED PURCHASE OF {} at {} reason: Insufficient Funds", name, price);
                     return false;
                 }
             } else {
-                logger.info("FAILED PURCHASE: Reason: %s is OUT OF STOCK", name);
+                logger.debug("FAILED PURCHASE: Reason: %s is OUT OF STOCK", name);
                 return false;
             }
         } else {
-            logger.info("FAILED PURCHASE: Reason: No such item bay");
+            logger.debug("FAILED PURCHASE: Reason: No such item bay");
             return false;
         }
     }
@@ -246,7 +248,7 @@ public class VendingMachine {
         int tempAmount = (item.getAmount() - 1);
 
         item.setAmount(tempAmount);
-        logger.info("DISPENSED: 1 {}.", itemName);
+        logger.debug("DISPENSED: 1 {}.", itemName);
         if (item.getAmount() == 0) {
             logger.warn("{} is OUT OF STOCK", itemName);
         }
@@ -260,8 +262,8 @@ public class VendingMachine {
      */
     public String refundMoney(String money) {
         ((CoinPayment) this.paymentReceived).setTotal(0);
-        logger.info("REFUND: ${}.", money);
-        logger.info("END OF TRANSACTION\n");
+        logger.debug("REFUND: ${}.", money);
+        logger.debug("END OF TRANSACTION\n");
         return money;
     }
 
@@ -293,6 +295,7 @@ public class VendingMachine {
         DecimalFormat moneyFormat = new DecimalFormat("#.00");
 
         stringBuilder.append(moneyFormat.format(((double) money / 100)));
+        logger.debug("String Conversion of {}", money);
         return stringBuilder.toString();
     }
 
@@ -310,6 +313,7 @@ public class VendingMachine {
         String parsed;
         String[] split;
 
+        logger.debug("Converting to Cents: {}", amount);
         if (amount == null) {
             return 0;
         }

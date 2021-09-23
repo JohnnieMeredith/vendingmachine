@@ -31,6 +31,7 @@ import org.apache.logging.log4j.Logger;
 public class ProductUpdateGUI extends javax.swing.JFrame {
 
     private static Logger logger = LogManager.getLogger(ProductUpdateGUI.class);
+    private static final String PATH = "vendingmachine\\src\\main\\resources\\input.json";
 
     /**
      * Creates new form ProductUpdateGUI
@@ -144,7 +145,7 @@ public class ProductUpdateGUI extends javax.swing.JFrame {
     public void writeTextToFile() throws IOException {
         BufferedWriter output = null;
         try {
-            File file = new File("vendingmachine\\src\\main\\resources\\input.json");
+            File file = new File(PATH);
             FileWriter fileWriter = new FileWriter(file, false);
             output = new BufferedWriter(fileWriter);
             output.write(jsonTextArea.getText());
@@ -155,6 +156,7 @@ public class ProductUpdateGUI extends javax.swing.JFrame {
                 output.close();
             }
         }
+        logger.debug("New TEXT written to input.json");
         restartVendingMachine();
 
     }
@@ -163,8 +165,8 @@ public class ProductUpdateGUI extends javax.swing.JFrame {
      * Restarts the controller and view so that changes can populate.
      */
     public void restartVendingMachine() {
-        String path = "vendingmachine\\src\\main\\resources\\input.json";
-        VendingMachine vendingMachine = new VendingMachine(path);
+        logger.debug("RESTARTING VENDING MACHINE");
+        VendingMachine vendingMachine = new VendingMachine(PATH);
         VendingMachineGUI gui = new VendingMachineGUI();
         gui.setVendingMachine(vendingMachine);
         gui.run();
@@ -181,9 +183,8 @@ public class ProductUpdateGUI extends javax.swing.JFrame {
         OutputStream outputStream = null;
         try {
             File source = new File(fileTextField.getText());
-            File destination = new File("vendingmachine\\src\\main\\resources\\input.json");
             inputStream = new FileInputStream(source);
-            outputStream = new FileOutputStream(destination);
+            outputStream = new FileOutputStream(PATH);
             byte[] buffer = new byte[1024];
             int length;
             while ((length = inputStream.read(buffer)) > 0) {
@@ -197,6 +198,7 @@ public class ProductUpdateGUI extends javax.swing.JFrame {
             inputStream.close();
             outputStream.close();
         }
+        logger.debug("New File written to input.json");
         restartVendingMachine();
     }
 
