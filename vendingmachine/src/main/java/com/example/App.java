@@ -1,6 +1,7 @@
 package com.example;
 
-import com.example.gui.VendingMachineGUI;
+import com.example.controller.VendingMachine;
+import com.example.view.VendingMachineGUI;
 
 /**
  * Hello world!

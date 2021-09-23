@@ -1,4 +1,4 @@
-package com.example;
+package com.example.model;
 
 public class CoinPayment implements Payment {
     private int total;

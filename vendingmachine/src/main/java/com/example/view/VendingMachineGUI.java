@@ -1,12 +1,12 @@
-package com.example.gui;
+package com.example.view;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 import java.util.Optional;
 
-import com.example.Item;
-import com.example.VendingMachine;
+import com.example.controller.VendingMachine;
+import com.example.model.Item;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

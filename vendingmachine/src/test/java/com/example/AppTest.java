@@ -5,6 +5,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.io.File;
 import java.util.Scanner;
 
+import com.example.Utilities.JsonInputReaderPOJO;
+import com.example.Utilities.MyJson;
+import com.example.Utilities.VendingMachineLoggerTestHelper;
+import com.example.controller.VendingMachine;
+import com.example.model.CoinPayment;
+import com.example.model.Item;
+import com.example.model.Payment;
+
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 

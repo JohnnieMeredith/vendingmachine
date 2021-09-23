@@ -1,11 +1,17 @@
-package com.example;
+package com.example.controller;
 
 import java.text.DecimalFormat;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Optional;
-import java.util.Scanner;
 import java.util.regex.Pattern;
+
+import com.example.Utilities.JsonInputReaderPOJO;
+import com.example.Utilities.MyJson;
+import com.example.model.CoinPayment;
+import com.example.model.Config;
+import com.example.model.Item;
+import com.example.model.Payment;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

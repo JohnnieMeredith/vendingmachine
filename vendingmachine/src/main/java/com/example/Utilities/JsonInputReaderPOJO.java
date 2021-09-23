@@ -1,6 +1,9 @@
-package com.example;
+package com.example.Utilities;
 
 import java.util.Arrays;
+
+import com.example.model.Config;
+import com.example.model.Item;
 
 public class JsonInputReaderPOJO {
     private Config config;
