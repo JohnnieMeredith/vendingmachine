@@ -22,6 +22,8 @@
 
 - Download the project. If using the zip archive, extract it from the archive.
 
+- Make sure the relative path to the input.json is vendingmachine\src\main\resources\input.json - If not create the directory structure and place it there.
+
 - Navigate to the directory containing
 
 > vendingmachine-1.0-SNAPSHOT-jar-with-dependencies.jar
@@ -32,6 +34,8 @@
 #### Method 2
 
 - Download the project. If using the zip archive, extract it from the archive.
+
+- With this method the relative path to json.input should already be vendingmachine\src\main\resources\input.json - If not create the directory structure and place it there.
 
 - Navigate using the command line to the project folder containing the pom.xml file.
 
