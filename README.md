@@ -92,14 +92,14 @@ After completion I made the decision to start building a GUI version. This meant
 
 ### Tools and Technologies
 
-Java JDK 12+
-Git/Github
-Maven
-JUnit
-Jackson Json library
-log4j2 Logging
-Visual Studio Code
-Apache Netbeans IDE Visual Designer
+- Java JDK 12+
+- Git/Github
+- Maven
+- JUnit
+- Jackson Json library
+- log4j2 Logging
+- Visual Studio Code
+- Apache Netbeans IDE Visual Designer
 
 ### Project Structure and Classes
 
