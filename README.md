@@ -20,7 +20,7 @@
 
 - Install Java JDK 12 or later. Follow the instructions at the [Oracle JDK Installation Guide](https://docs.oracle.com/en/java/javase/17/install/overview-jdk-installation.html)
 
-- Download the projcect. Extract it from the archive.
+- Download the project. If using the zip archive, extract it from the archive.
 
 Navigate to the directory containing
 
@@ -31,7 +31,7 @@ Navigate to the directory containing
 
 #### Method 2
 
-- Download the project. Extract it from the archive.
+- Download the project. If using the zip archive, extract it from the archive.
 
 - Navigate using the command line to the project folder containing the pom.xml file.
 
