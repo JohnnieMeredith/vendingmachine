@@ -115,9 +115,7 @@ public class VendingMachine {
     }
 
     public Item lookupItem(String key) {
-        // TODO: handle bad input
         return productLayout.get(key);
-
     }
 
     /*
