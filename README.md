@@ -6,11 +6,11 @@
 
 ![](https://img.shields.io/github/stars/JohnnieMeredith/vendingmachine.svg) ![](https://img.shields.io/github/forks/JohnnieMeredith/vendingmachine.svg) ![](https://img.shields.io/github/tag/JohnnieMeredith/vendingmachine.svg) ![](https://img.shields.io/github/issues/JohnnieMeredith/vendingmachine.svg)
 
-**(Table of Contents)**
+**Table of Contents**
 
-[TOCM]
-
-[TOC]
+- [Instructions](https://github.com/JohnnieMeredith/vendingmachine/blob/master/README.md#instructions)
+- [Design](https://github.com/JohnnieMeredith/vendingmachine/blob/master/README.md#design)
+- [Implementation](https://github.com/JohnnieMeredith/vendingmachine/blob/master/README.md#implementation)
 
 ## Instructions
 
@@ -89,57 +89,57 @@ I wanted the user to be able to enter the amount of money in any way that I coul
 
 ### Project Structure and Classes
 
-## com\example
+#### com\example
 
-### App
+##### App
 
 The main class for this project that simulates the operation of a vending machine. It reads the items and layout from a Json file. Creates GUI and logic.
 
-## com\example\controller
+#### com\example\controller
 
-### VendingMachine
+##### VendingMachine
 
 The logic for our vending machine.
 
-## com\example\model
+#### com\example\model
 
-### CoinPayment
+##### CoinPayment
 
 An implementation of payment representing cash payments.
 
-### Config
+##### Config
 
 An object to hold the rows and columns from our Json.
 
-### Item
+##### Item
 
 An object modelling the products for sale imported from our Json.
 
-### Payment
+##### Payment
 
 An interface modelling a payment for a vending machine. It guarantees 3 behaviors. getTotal returns the current amount of payment. addAmount adds money to the total. payAmount pays for a product.
 
-## com\example\utilities
+#### com\example\utilities
 
-### JsonInputReaderPOJO
+##### JsonInputReaderPOJO
 
 Java object with variables and data structures to which we can map our Json input.
 
-### MyJson
+##### MyJson
 
 Class that reads the input.json and maps it to our object.
 
-### VendingMachineLoggerTestHelper
+##### VendingMachineLoggerTestHelper
 
 Class for setting up and testing our log4j2 logger.
 
-## com\example\view
+#### com\example\view
 
-### ProductUpdateGUI
+##### ProductUpdateGUI
 
 GUI which allows writing Json or loading a new Json file to our vending machine.
 
-### VendingMachineGUI
+##### VendingMachineGUI
 
 Main view for our app which simulates a users experience with a vending machine.
 
@@ -156,6 +156,7 @@ Java 8 added Optional. This type can return a value or null. Using an Optional t
 ### With More Time
 
 - [ ] Refactor further
+- [ ] Improve README.md
 - [ ] Improve UI 
   - [ ] Add traditional vending machine buttons 
   - [ ] Allow adding actual quarters, dollars, etc.
