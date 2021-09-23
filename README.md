@@ -1,6 +1,7 @@
 # Java Vending Machine
 
 #### **Author:** Johnnie Meredith
+##### Contact me at: johnmeredith5314@comcast.net
 
 ##### **Last Updated:** Sept 23, 2021
 
