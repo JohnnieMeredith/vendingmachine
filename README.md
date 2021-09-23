@@ -45,7 +45,7 @@
 
 - Or use javac on each java file to compile each class
 
--Navigate to the folder \target\classes\com\example\ use the command
+- Navigate to the folder \target\classes\com\example\ use the command
 
 > java App
 
@@ -62,7 +62,7 @@ letters in the box before each entry (A0 in our example).
 
 ## Design
 
-I used Object Oriented Design and Test Driven Development during development. I initiated my git repository. My first task in design was to come up with a model. That meant taking some time to think about the way an actual vending machine works. Deciding what parts were important and what each part did. I thought about how I could abstract the concept into object form. First, I decided to model my data objects. **Abstraction** is a core concept of OOP and doing it wrong can have lasting consequences for a project. Setting up your data objects correctly allows you to keep separation of concerns more strictly. Using **Encapsulation**, I made sure to hide my variable and only expose them through getters and setters, while also making sure to only expose methods which other classes need to use. The two concepts that fit nicely into this concept were payments and the items to be sold. While I knew that I would only take cash payment now, I decided that payment should be an interface for future adding of credit card or online payments. Next I knew I would need something to handle the Json, business logic for the machine, and planned for the case of creating a graphical user interface. Next, I went through each of my planned objects and tried to anticipate what data they would hold and what tasks they would need to accomplish. After getting a good idea of what direction to go, I planned my tools. I would use Maven to automate build tasks and tests. My choice of editor is Visual Studio Code. I have experience with Swing making that the obvious choice for the graphical user interface. I researched Json libraries and decided that Jackson would be the choice for this project.
+I used **Object Oriented Design** and **Test Driven Development** while coding this project. I initiated my git repository. My first task in design was to come up with a model. That meant taking some time to think about the way an actual vending machine works. Deciding what parts were important and what each part did. I thought about how I could abstract the concept into object form. First, I decided to model my data objects. **Abstraction** is a core concept of OOP and doing it wrong can have lasting consequences for a project. Setting up your data objects correctly allows you to keep separation of concerns more strictly. Using **Encapsulation**, I made sure to hide my variable and only expose them through getters and setters, while also making sure to only expose methods which other classes need to use. The two concepts that fit nicely into this concept were payments and the items to be sold. While I knew that I would only take cash payment now, I decided that payment should be an interface for future adding of credit card or online payments. Next I knew I would need something to handle the Json, business logic for the machine, and planned for the case of creating a graphical user interface. Next, I went through each of my planned objects and tried to anticipate what data they would hold and what tasks they would need to accomplish. After getting a good idea of what direction to go, I planned my tools. I would use Maven to automate build tasks and tests. My choice of editor is Visual Studio Code. I have experience with Swing making that the obvious choice for the graphical user interface. I researched Json libraries and decided that Jackson would be the choice for this project.
 
 ## Implementation
 
@@ -89,6 +89,17 @@ With less time than I would like I would follow the age old advice of "KEEP IT S
 - Ready for another transaction
 
 After completion I made the decision to start building a GUI version. This meant refactoring some of the methods I used in the console app to communicate with the user through the GUI instead of printing to console and reading console input. Having the tests written and running them after every change made this process much easier. I used the Apache Netbeans IDE designer to generate the boilerplate code for the components and layout. Next came bugfixes. While I did not have many, there were instances where my test coverage missed an edge case. This was mostly the case with taking unforseen user input. I wanted the user to be able to enter the amount of money in any way that I could think of. I made additional test cases and quickly found my error. Finally, I made the UI to update the json used for the config and product layout. Without specifications, I thought that two ways of changing the file would work for now. I had a text area that Json could be directly written in and a text field which takes a file path and writes that file over the location of the original Json file. With some final testing and bugfixes, the project is complete.
+
+### Tools and Technologies
+
+Java JDK 12+
+Git/Github
+Maven
+JUnit
+Jackson Json library
+log4j2 Logging
+Visual Studio Code
+Apache Netbeans IDE Visual Designer
 
 ### Project Structure and Classes
 
