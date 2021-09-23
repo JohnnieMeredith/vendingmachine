@@ -183,7 +183,11 @@ Java 8 added Optional. This type can return a value or null. Using an Optional t
   - [ ] Reconsider names 
   - [ ] Consider interface for Json Update
 - [ ] Improve README.md
-- [ ] Improve UI 
+- [ ] Improve UI
+  - [ ] Improve method of Displaying Items for sale  
   - [ ] Add traditional vending machine buttons 
   - [ ] Allow adding actual quarters, dollars, etc.
   - [ ] Add a credit card option
+- [ ] Add Functionality
+  - [ ] New Payment types
+  - [ ] Online Json Updater using Socket or API 
