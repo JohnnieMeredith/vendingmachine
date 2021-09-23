@@ -50,40 +50,8 @@ public class VendingMachine {
         this.rows = rows;
     }
 
-    public LinkedHashMap<String, Item> getProductLayout() {
-        return this.productLayout;
-    }
-
-    public void setProductLayout(LinkedHashMap<String, Item> productLayout) {
-        this.productLayout = productLayout;
-    }
-
-    public Payment getPaymentReceived() {
-        return this.paymentReceived;
-    }
-
-    public void setPaymentReceived(Payment paymentReceived) {
-        this.paymentReceived = paymentReceived;
-    }
-
-    public Logger getLogger() {
-        return this.logger;
-    }
-
-    public void setLogger(Logger logger) {
-        this.logger = logger;
-    }
-
-    public String getPathToJson() {
-        return this.pathToJson;
-    }
-
-    public void setPathToJson(String pathToJson) {
-        this.pathToJson = pathToJson;
-    }
-
     /**
-     * START SETTERS AND GETTERS
+     * END SETTERS AND GETTERS
      */
 
     public void setupColsRows(Config config) {
@@ -93,18 +61,16 @@ public class VendingMachine {
     }
 
     public void setupProductLayout(Item[] items) {
-
         int next = 0;
         for (int row = 0; row < rows; row++) {
             for (int column = 0; column < columns; column++) {
                 StringBuilder productKey = new StringBuilder();
-
                 char currentRow = convertIntToChar(row);
                 productKey.append(currentRow);
                 productKey.append(column);
-                String name = "Empty";
-                int amount = 0;
-                String price = "$0.00";
+                String name = "";
+                int amount;
+                String price;
                 if (next < items.length) {
                     name = items[next].getName();
                     amount = items[next].getAmount();
@@ -128,16 +94,17 @@ public class VendingMachine {
             String price = item.getPrice();
             int quantity = item.getAmount();
             productListString.append(String.format("[%s] %s-%s Qty:%s ", position, name, price, quantity));
-            writeToScreen(String.format("[%s] %s - %s : Qty:%s ", position, name, price, quantity));
+            // writeToScreen(String.format("[%s] %s - %s : Qty:%s ", position, name, price,
+            // quantity));
             if (columnIndex % getColumns() == 0) {
                 productListString.append("\n");
-                writeToScreen("\n");
+                // writeToScreen("\n");
             }
             columnIndex++;
 
         }
         productListString.append("\n");
-        writeToScreen("\n");
+        // writeToScreen("\n");
         return productListString.toString();
     }
 
@@ -147,32 +114,22 @@ public class VendingMachine {
 
     }
 
-    public void promptPayment() {
-        System.out.println("Enter payment amount in US Dollars: ");
-        double x = 0;
-        Scanner sc = new Scanner(System.in);
-        while (sc.hasNextDouble()) {
-            x = sc.nextDouble();
-            if (sc.nextLine().length() == 0) {
-                break;
-
-            }
-        }
-        // sc.close();
-        int totalAsCents = (int) (x * 100);
-        setupPayment(totalAsCents);
-    }
+    /*
+     * public void promptPayment() {
+     * System.out.println("Enter payment amount in US Dollars: "); double x = 0;
+     * Scanner sc = new Scanner(System.in); while (sc.hasNextDouble()) { x =
+     * sc.nextDouble(); if (sc.nextLine().length() == 0) { break;
+     * 
+     * } } // sc.close(); int totalAsCents = (int) (x * 100);
+     * setupPayment(totalAsCents); }
+     */
 
     public void setupPayment(int amount) {
-
         this.paymentReceived = new CoinPayment(amount);
+        int dollars = paymentReceived.getTotal() / 100;
+        int cents = paymentReceived.getTotal() % 100;
         logger.info("START OF NEW TRANSACTION");
-        logger.info(String.format("PAYMENT ADDED: $ %s.%s cents", paymentReceived.getTotal() / 100,
-                paymentReceived.getTotal() % 100));
-    }
-
-    public void setPayment(Payment payment) {
-        this.paymentReceived = payment;
+        logger.info("PROCESSED PAYMENT: $ {}.{}", dollars, cents);
     }
 
     public Payment getPayment() {
@@ -189,33 +146,27 @@ public class VendingMachine {
         return this.paymentReceived.getTotal();
     }
 
-    public String getUserSelection() {
-        System.out.println("Enter your selection: ");
-        Scanner scanner = new Scanner(System.in);
-        while (scanner.hasNextLine()) {
-            // gui.readSelection
-            String selection = scanner.nextLine();
-
-            if (Pattern.matches("[A-Z][0-9]", selection)) {
-                buyItem(lookupItem(selection));
-                return selection;
-            } else {
-                writeToScreen("Invalid Selection. Selection should be a capital letter followed by a number\n");
-                writeToScreen("Enter another selection:\n");
-            }
-
-            // gui.clearSelection();
-        }
-        return "null";
-
-    }
+    /*
+     * public String getUserSelection() {
+     * System.out.println("Enter your selection: "); Scanner scanner = new
+     * Scanner(System.in); while (scanner.hasNextLine()) { // gui.readSelection
+     * String selection = scanner.nextLine();
+     * 
+     * if (Pattern.matches("[A-Z][0-9]", selection)) {
+     * buyItem(lookupItem(selection)); return selection; } else {
+     * writeToScreen("Invalid Selection. Selection should be a capital letter followed by a number\n"
+     * ); writeToScreen("Enter another selection:\n"); }
+     * 
+     * // gui.clearSelection(); } return "null";
+     * 
+     * }
+     */
 
     public Optional<Item> getUserSelection(String selection) {
-        Optional<Item> item = null;
+        Optional<Item> item = Optional.ofNullable(null);
         if (Pattern.matches("[A-Z][0-9]", selection)) {
-            item = Optional.of(lookupItem(selection));
-        } else
-            item = Optional.ofNullable(null);
+            item = Optional.ofNullable(lookupItem(selection));
+        }
         return item;
 
     }
@@ -226,23 +177,20 @@ public class VendingMachine {
             String price = item.getPrice();
             if (item.getAmount() > 0) {
                 if (paymentReceived.payAmount(item.getPriceinCents())) {
-                    logger.info("SOLD: 1 {} at {}", name, price);
+                    logger.info("PAYMENT PROCESSED: For Qty: 1 {} at {}", name, price);
                     dispenseItem(item);
                     return true;
                 } else {
 
                     logger.info("FAILED PURCHASE OF {} at {} reason: Insufficient Funds", name, price);
-                    // writeToScreen("Insufficient funds for that item.");
                     return false;
                 }
             } else {
-                logger.info("FAILED PURCHASE OF %s reason: OUT OF STOCK", name);
-                // writeToScreen("Sorry that item is out of stock.");
+                logger.info("FAILED PURCHASE: Reason: %s is OUT OF STOCK", name);
                 return false;
             }
         } else {
-            logger.info("FAILED PURCHASE reason: NO SUCH ITEM");
-            // writeToScreen("Please Select a valid item.");
+            logger.info("FAILED PURCHASE: Reason: No such item bay");
             return false;
         }
     }
@@ -250,9 +198,8 @@ public class VendingMachine {
     public void dispenseItem(Item item) {
         String itemName = item.getName();
         int tempAmount = (item.getAmount() - 1);
-        item.setAmount(tempAmount);
 
-        writeToScreen(String.format("Dispensing %s.", itemName));
+        item.setAmount(tempAmount);
         logger.info("DISPENSED: 1 {}.", itemName);
         if (item.getAmount() == 0) {
             logger.warn("{} is OUT OF STOCK", itemName);
@@ -260,9 +207,8 @@ public class VendingMachine {
     }
 
     public String refundMoney(String money) {
-        logger.info("REFUND: ${}.", money);
         ((CoinPayment) this.paymentReceived).setTotal(0);
-        // writeToScreen(String.format("Refunded $%s\n", money));
+        logger.info("REFUND: ${}.", money);
         logger.info("END OF TRANSACTION\n");
         return money;
     }
@@ -274,6 +220,7 @@ public class VendingMachine {
     public char convertIntToChar(int convertChar) {
         char c = 'A';
         int numberConversion = c + convertChar;
+
         return (char) numberConversion;
     }
 
@@ -289,25 +236,31 @@ public class VendingMachine {
     public String getStringValueOfMoney(int money) {
         StringBuilder stringBuilder = new StringBuilder();
         DecimalFormat moneyFormat = new DecimalFormat("#.00");
+
         stringBuilder.append(moneyFormat.format(((double) money / 100)));
         return stringBuilder.toString();
     }
 
     public int getIntValueOfString(String amount) {
+        StringBuilder sb = new StringBuilder();
+        StringBuilder addZero;
+        String assuredString;
+        String parsed;
+        String[] split;
+
         if (amount == null) {
             return 0;
         }
-        StringBuilder sb = new StringBuilder();
         if (!amount.contains(".")) {
             sb.append(amount);
             sb.append(".00");
         } else
             sb.append(amount);
-        String assuredString = sb.toString();
-        String parsed = assuredString.strip().replace("$", "");
-        String[] split = parsed.split("\\.");
+        assuredString = sb.toString();
+        parsed = assuredString.strip().replace("$", "");
+        split = parsed.split("\\.");
         if (split[1].length() == 1) {
-            StringBuilder addZero = new StringBuilder(split[1]);
+            addZero = new StringBuilder(split[1]);
             addZero.append("0");
             split[1] = addZero.toString();
         }
@@ -319,19 +272,6 @@ public class VendingMachine {
 
     /**
      * End Convenience Metthods
-     */
-
-    /*
-     * public static void main(String[] args) { VendingMachine vendingMachine = new
-     * VendingMachine("vendingmachine\\src\\main\\resources\\input.json"); while
-     * (true) {
-     * 
-     * vendingMachine.printProductList(); vendingMachine.promptPayment();
-     * vendingMachine.getUserSelection(); String moneyLeft =
-     * vendingMachine.getStringValueOfMoney(vendingMachine.getPayment().getTotal());
-     * vendingMachine.refundMoney(moneyLeft); }
-     * 
-     * }
      */
 
 }

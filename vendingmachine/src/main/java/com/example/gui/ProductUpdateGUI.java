@@ -25,14 +25,12 @@ import org.apache.logging.log4j.Logger;
  */
 public class ProductUpdateGUI extends javax.swing.JFrame {
 
-    private VendingMachine vendingMachine;
     private static Logger logger = LogManager.getLogger(ProductUpdateGUI.class);
 
     /**
      * Creates new form ProductUpdateGUI
      */
-    public ProductUpdateGUI(VendingMachine vendingMachine) {
-        this.vendingMachine = vendingMachine;
+    public ProductUpdateGUI() {
         initComponents();
     }
 
@@ -156,7 +154,7 @@ public class ProductUpdateGUI extends javax.swing.JFrame {
 
     public void restartVendingMachine() {
         String path = "vendingmachine\\src\\main\\resources\\input.json";
-        this.vendingMachine = new VendingMachine(path);
+        VendingMachine vendingMachine = new VendingMachine(path);
         VendingMachineGUI gui = new VendingMachineGUI();
         gui.setVendingMachine(vendingMachine);
         gui.run();
