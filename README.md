@@ -156,4 +156,7 @@ Java 8 added Optional. This type can return a value or null. Using an Optional t
 ### With More Time
 
 - [ ] Refactor further
-- [ ] Improve UI -[ ] Add traditional vending machine buttons -[ ] Allow adding actual quarters, dollars, etc. -[ ] Add a credit card option
+- [ ] Improve UI 
+  - [ ] Add traditional vending machine buttons 
+  - [ ] Allow adding actual quarters, dollars, etc.
+  - [ ] Add a credit card option
