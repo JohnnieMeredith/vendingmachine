@@ -20,10 +20,9 @@
   - [Tools and Technology](https://github.com/JohnnieMeredith/vendingmachine/blob/master/README.md#tools-and-technologies)
   - [Project Structure and Classes](https://github.com/JohnnieMeredith/vendingmachine/blob/master/README.md#project-structure-and-classes)
   - [Interesting decisions](https://github.com/JohnnieMeredith/vendingmachine/blob/master/README.md#interesting-decisions)
-- [In the Future](https://github.com/JohnnieMeredith/vendingmachine/blob/master/README.md#with-more-time)
+- [In the Future](https://github.com/JohnnieMeredith/vendingmachine/blob/master/README.md#in-the-future)
 
-- [Design](https://github.com/JohnnieMeredith/vendingmachine/blob/master/README.md#design)
-- [Implementation](https://github.com/JohnnieMeredith/vendingmachine/blob/master/README.md#implementation)
+
 
 
 
@@ -178,7 +177,7 @@ I wanted to store items in a data structure and be able to look items up by the 
 
 Java 8 added Optional. This type can return a value or null. Using an Optional to store the result of looking items up from the LinkedHashMap made dealing with wrong input much easier without producing errors.
 
-### With More Time
+### In The Future
 
 - [ ] Refactor further
 - [ ] Improve README.md
