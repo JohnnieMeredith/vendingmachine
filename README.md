@@ -54,6 +54,7 @@
 Upon startup you will be faced with a new window. At the top will be a large text area with entries like
 
 > [A0] Snickers-$1.35 Qty: 10
+
 Below this will be a screen which relays information about the sale process.
 On the next row we have a label which shows the amount of money you have entered, a text field to enter the amount of money,
 and a button which submits the amount to be added. The next row has a text area to make your selection. This will take the form of the
