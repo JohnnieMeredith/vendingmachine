@@ -9,6 +9,17 @@
 **Table of Contents**
 
 - [Instructions](https://github.com/JohnnieMeredith/vendingmachine/blob/master/README.md#instructions)
+  - [Installation and running](https://github.com/JohnnieMeredith/vendingmachine/blob/master/README.md#installation-and-running)
+    - [Method 1 Easiest](https://github.com/JohnnieMeredith/vendingmachine/blob/master/README.md#method-1---easiest)
+    - [Method 2 Maven](https://github.com/JohnnieMeredith/vendingmachine/blob/master/README.md#method-2---maven)
+    - [Using the app](https://github.com/JohnnieMeredith/vendingmachine/blob/master/README.md#using-the-app)
+- [Design](https://github.com/JohnnieMeredith/vendingmachine/blob/master/README.md#design)
+- [Implementation](https://github.com/JohnnieMeredith/vendingmachine/blob/master/README.md#implementation)
+  - [Tools and Technology](https://github.com/JohnnieMeredith/vendingmachine/blob/master/README.md#tools-and-technologies)
+  - [Project Structure and Classes](https://github.com/JohnnieMeredith/vendingmachine/blob/master/README.md#project-structure-and-classes)
+  - [Interesting decisions](https://github.com/JohnnieMeredith/vendingmachine/blob/master/README.md#interesting-decisions)
+- [In the Future](https://github.com/JohnnieMeredith/vendingmachine/blob/master/README.md#with-more-time)
+
 - [Design](https://github.com/JohnnieMeredith/vendingmachine/blob/master/README.md#design)
 - [Implementation](https://github.com/JohnnieMeredith/vendingmachine/blob/master/README.md#implementation)
 
