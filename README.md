@@ -180,6 +180,8 @@ Java 8 added Optional. This type can return a value or null. Using an Optional t
 ### In The Future
 
 - [ ] Refactor further
+  - [ ] Reconsider names 
+  - [ ] Consider interface for Json Update
 - [ ] Improve README.md
 - [ ] Improve UI 
   - [ ] Add traditional vending machine buttons 
