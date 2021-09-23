@@ -31,7 +31,7 @@
 - From that directory with the command line run:
   > java -jar vendingmachine-1.0-SNAPSHOT-jar-with-dependencies.jar
 
-#### Method 2
+#### Method 2 - Maven
 
 - Download the project. If using the zip archive, extract it from the archive.
 
