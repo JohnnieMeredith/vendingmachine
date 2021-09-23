@@ -1165,3 +1165,56 @@
 [INFO ] 2021-09-22 18:34:39.628 [main] VendingMachine - ADDED: 10 Baby Ruth, Current Price : $2.50 to Slot: A6
 [INFO ] 2021-09-22 18:34:39.628 [main] VendingMachine - ADDED: 10 Milky Way, Current Price : $1.00 to Slot: A7
 [INFO ] 2021-09-22 18:34:39.628 [main] VendingMachine - ADDED: 10 M&M, Current Price : $1.25 to Slot: B0
+[INFO ] 2021-09-23 00:07:25.723 [main] VendingMachine - START OF NEW TRANSACTION
+[INFO ] 2021-09-23 00:07:25.725 [main] VendingMachine - PROCESSED PAYMENT: $ 0.0
+[INFO ] 2021-09-23 00:07:25.725 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A0
+[INFO ] 2021-09-23 00:07:25.725 [main] VendingMachine - ADDED: 10 Hersheys, Current Price : $2.25 to Slot: A1
+[INFO ] 2021-09-23 00:07:25.725 [main] VendingMachine - ADDED: 10 Hersheys Almond, Current Price : $1.80 to Slot: A2
+[INFO ] 2021-09-23 00:07:25.726 [main] VendingMachine - ADDED: 10 Hersheys Special Dark, Current Price : $1.75 to Slot: A3
+[INFO ] 2021-09-23 00:07:25.726 [main] VendingMachine - ADDED: 10 Reese's, Current Price : $1.05 to Slot: A4
+[INFO ] 2021-09-23 00:07:25.726 [main] VendingMachine - ADDED: 10 Nutrageous, Current Price : $1.30 to Slot: A5
+[INFO ] 2021-09-23 00:07:25.726 [main] VendingMachine - ADDED: 10 Baby Ruth, Current Price : $2.50 to Slot: A6
+[INFO ] 2021-09-23 00:07:25.726 [main] VendingMachine - ADDED: 10 Milky Way, Current Price : $1.00 to Slot: A7
+[INFO ] 2021-09-23 00:07:25.726 [main] VendingMachine - ADDED: 10 M&M, Current Price : $1.25 to Slot: B0
+[INFO ] 2021-09-23 00:07:25.733 [main] VendingMachine - START OF NEW TRANSACTION
+[INFO ] 2021-09-23 00:07:25.733 [main] VendingMachine - PROCESSED PAYMENT: $ 10.0
+[FATAL] 2021-09-23 00:07:25.761 [main] VendingMachineLoggerTestHelper - This is a fatal message
+[INFO ] 2021-09-23 00:10:06.053 [main] VendingMachine - START OF NEW TRANSACTION
+[INFO ] 2021-09-23 00:10:06.055 [main] VendingMachine - PROCESSED PAYMENT: $ 0.0
+[INFO ] 2021-09-23 00:10:06.055 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A0
+[INFO ] 2021-09-23 00:10:06.055 [main] VendingMachine - ADDED: 10 Hersheys, Current Price : $2.25 to Slot: A1
+[INFO ] 2021-09-23 00:10:06.055 [main] VendingMachine - ADDED: 10 Hersheys Almond, Current Price : $1.80 to Slot: A2
+[INFO ] 2021-09-23 00:10:06.055 [main] VendingMachine - ADDED: 10 Hersheys Special Dark, Current Price : $1.75 to Slot: A3
+[INFO ] 2021-09-23 00:10:06.055 [main] VendingMachine - ADDED: 10 Reese's, Current Price : $1.05 to Slot: A4
+[INFO ] 2021-09-23 00:10:06.055 [main] VendingMachine - ADDED: 10 Nutrageous, Current Price : $1.30 to Slot: A5
+[INFO ] 2021-09-23 00:10:06.056 [main] VendingMachine - ADDED: 10 Baby Ruth, Current Price : $2.50 to Slot: A6
+[INFO ] 2021-09-23 00:10:06.056 [main] VendingMachine - ADDED: 10 Milky Way, Current Price : $1.00 to Slot: A7
+[INFO ] 2021-09-23 00:10:06.056 [main] VendingMachine - ADDED: 10 M&M, Current Price : $1.25 to Slot: B0
+[INFO ] 2021-09-23 00:10:06.061 [main] VendingMachine - FAILED PURCHASE OF Snickers at $1.35 reason: Insufficient Funds
+[INFO ] 2021-09-23 00:10:50.415 [main] VendingMachine - START OF NEW TRANSACTION
+[INFO ] 2021-09-23 00:10:50.417 [main] VendingMachine - PROCESSED PAYMENT: $ 0.0
+[INFO ] 2021-09-23 00:10:50.417 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A0
+[INFO ] 2021-09-23 00:10:50.417 [main] VendingMachine - ADDED: 10 Hersheys, Current Price : $2.25 to Slot: A1
+[INFO ] 2021-09-23 00:10:50.417 [main] VendingMachine - ADDED: 10 Hersheys Almond, Current Price : $1.80 to Slot: A2
+[INFO ] 2021-09-23 00:10:50.417 [main] VendingMachine - ADDED: 10 Hersheys Special Dark, Current Price : $1.75 to Slot: A3
+[INFO ] 2021-09-23 00:10:50.417 [main] VendingMachine - ADDED: 10 Reese's, Current Price : $1.05 to Slot: A4
+[INFO ] 2021-09-23 00:10:50.418 [main] VendingMachine - ADDED: 10 Nutrageous, Current Price : $1.30 to Slot: A5
+[INFO ] 2021-09-23 00:10:50.418 [main] VendingMachine - ADDED: 10 Baby Ruth, Current Price : $2.50 to Slot: A6
+[INFO ] 2021-09-23 00:10:50.418 [main] VendingMachine - ADDED: 10 Milky Way, Current Price : $1.00 to Slot: A7
+[INFO ] 2021-09-23 00:10:50.418 [main] VendingMachine - ADDED: 10 M&M, Current Price : $1.25 to Slot: B0
+[INFO ] 2021-09-23 00:10:50.424 [main] VendingMachine - PAYMENT PROCESSED: For Qty: 1 Snickers at $1.35
+[INFO ] 2021-09-23 00:10:50.424 [main] VendingMachine - DISPENSED: 1 Snickers.
+[INFO ] 2021-09-23 00:11:23.298 [main] VendingMachine - START OF NEW TRANSACTION
+[INFO ] 2021-09-23 00:11:23.300 [main] VendingMachine - PROCESSED PAYMENT: $ 0.0
+[INFO ] 2021-09-23 00:11:23.300 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A0
+[INFO ] 2021-09-23 00:11:23.300 [main] VendingMachine - ADDED: 10 Hersheys, Current Price : $2.25 to Slot: A1
+[INFO ] 2021-09-23 00:11:23.300 [main] VendingMachine - ADDED: 10 Hersheys Almond, Current Price : $1.80 to Slot: A2
+[INFO ] 2021-09-23 00:11:23.301 [main] VendingMachine - ADDED: 10 Hersheys Special Dark, Current Price : $1.75 to Slot: A3
+[INFO ] 2021-09-23 00:11:23.301 [main] VendingMachine - ADDED: 10 Reese's, Current Price : $1.05 to Slot: A4
+[INFO ] 2021-09-23 00:11:23.301 [main] VendingMachine - ADDED: 10 Nutrageous, Current Price : $1.30 to Slot: A5
+[INFO ] 2021-09-23 00:11:23.301 [main] VendingMachine - ADDED: 10 Baby Ruth, Current Price : $2.50 to Slot: A6
+[INFO ] 2021-09-23 00:11:23.301 [main] VendingMachine - ADDED: 10 Milky Way, Current Price : $1.00 to Slot: A7
+[INFO ] 2021-09-23 00:11:23.301 [main] VendingMachine - ADDED: 10 M&M, Current Price : $1.25 to Slot: B0
+[INFO ] 2021-09-23 00:11:23.308 [main] VendingMachine - PAYMENT PROCESSED: For Qty: 1 Snickers at $1.35
+[INFO ] 2021-09-23 00:11:23.308 [main] VendingMachine - DISPENSED: 1 Snickers.
+[INFO ] 2021-09-23 00:11:23.311 [main] VendingMachine - FAILED PURCHASE OF Snickers at $1.35 reason: Insufficient Funds

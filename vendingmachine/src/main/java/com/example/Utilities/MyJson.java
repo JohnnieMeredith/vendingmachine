@@ -1,4 +1,4 @@
-package com.example.Utilities;
+package com.example.utilities;
 
 import java.io.IOException;
 import java.nio.file.Paths;
@@ -6,14 +6,13 @@ import java.nio.file.Paths;
 import com.fasterxml.jackson.core.exc.StreamReadException;
 import com.fasterxml.jackson.databind.DatabindException;
 import com.fasterxml.jackson.databind.DeserializationFeature;
-import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 /**
- * Json
+ * Utility class for reading Json from a file and storing it in a Java Object.
  */
 public class MyJson {
 
@@ -32,11 +31,14 @@ public class MyJson {
 
     }
 
-    public static JsonNode parse(String src) throws IOException {
-        return objectMapper.readTree(src);
-
-    }
-
+    /**
+     * Reads a Json file and stores it in a Java Object
+     * 
+     * @param path String path to the Json File
+     * @return An object which stores the config variables and an array of the items
+     *         listed in the Json file.
+     * 
+     */
     public static JsonInputReaderPOJO buildJsonInputReaderPOJO(String path) {
         JsonInputReaderPOJO jsonInputReaderObject = null;
 

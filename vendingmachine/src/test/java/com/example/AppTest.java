@@ -5,13 +5,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.io.File;
 import java.util.Scanner;
 
-import com.example.Utilities.JsonInputReaderPOJO;
-import com.example.Utilities.MyJson;
-import com.example.Utilities.VendingMachineLoggerTestHelper;
 import com.example.controller.VendingMachine;
 import com.example.model.CoinPayment;
 import com.example.model.Item;
 import com.example.model.Payment;
+import com.example.utilities.JsonInputReaderPOJO;
+import com.example.utilities.MyJson;
+import com.example.utilities.VendingMachineLoggerTestHelper;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -92,12 +92,6 @@ class AppTest {
     }
 
     @Test
-    public void shouldConvertCharToInt() {
-
-        assertEquals(0, vm.convertCharToInt('A'));
-    }
-
-    @Test
     void shouldConvertIntToChar() {
 
         assertEquals('A', vm.convertIntToChar(0));
@@ -127,6 +121,14 @@ class AppTest {
 
     @Test
     void shouldGetUserSelection() {
-        // vm.getUserSelection();
+        assertEquals("Snickers", vm.getUserSelection("A0").get().getName());
+    }
+
+    @Test
+    void shouldBuyItem() {
+        vm.addToPaymentAmount(135);
+        assertEquals(true, vm.buyItem(vm.getUserSelection("A0").get()));
+        assertEquals(false, vm.buyItem(vm.getUserSelection("A0").get()));
+
     }
 }

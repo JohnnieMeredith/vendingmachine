@@ -1,7 +1,10 @@
 package com.example.model;
 
 /**
- * Product
+ * Data Class modelling an Item for sale in a vending machine.
+ * 
+ * @author Johnnie Meredith
+ * @version 1.0
  */
 public class Item {
     private String name;

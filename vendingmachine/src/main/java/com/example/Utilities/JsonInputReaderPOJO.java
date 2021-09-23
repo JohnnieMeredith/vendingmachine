@@ -1,10 +1,17 @@
-package com.example.Utilities;
+package com.example.utilities;
 
 import java.util.Arrays;
 
 import com.example.model.Config;
 import com.example.model.Item;
 
+/**
+ * Utility class which stores the data read by MyJson class from the supplied
+ * Json file.
+ * 
+ * @author Johnnie Meredith
+ * @version 1.0
+ */
 public class JsonInputReaderPOJO {
     private Config config;
     private Item[] items;

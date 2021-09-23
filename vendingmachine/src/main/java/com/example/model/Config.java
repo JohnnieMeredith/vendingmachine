@@ -1,5 +1,11 @@
 package com.example.model;
 
+/**
+ * Data class for holding config portion of Json read from file by MyJson.
+ * 
+ * @author Johnnie Meredith
+ * @version 1.0
+ */
 public class Config {
     private int rows;
     private String columns;

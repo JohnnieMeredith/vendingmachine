@@ -4,14 +4,19 @@ import com.example.controller.VendingMachine;
 import com.example.view.VendingMachineGUI;
 
 /**
- * Hello world!
+ * Main Class for a project that simulates the operation of a vending machine.
+ * Reads the items and layout from a Json file. Creates GUI and logic.
+ * 
+ * @author Johnnie Meredith
+ * @version 1.0
  */
 public final class App {
     private App() {
     }
 
     /**
-     * Says hello to the world.
+     * Builds GUI and logic class needed to simulate the operation of a Vending
+     * Machine.
      * 
      * @param args The arguments of the program.
      */

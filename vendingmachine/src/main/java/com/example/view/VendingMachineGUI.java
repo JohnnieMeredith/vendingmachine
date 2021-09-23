@@ -185,11 +185,21 @@ public class VendingMachineGUI extends javax.swing.JFrame {
         pack();
     }// </editor-fold>
 
+    /**
+     * 
+     * @param vendingMachine the vending machine logic controller
+     */
     public void setVendingMachine(VendingMachine vendingMachine) {
         this.vendingMachine = vendingMachine;
         updateProductList();
     }
 
+    /**
+     * Gets input containing an amount of currency. Adds that currency to the
+     * vending machine. Displays the current total.
+     * 
+     * @param evt there for overriding purposes
+     */
     private void addCurrencyButtonActionPerformed(ActionEvent evt) {
         String currency = currencyTextField.getText();
         int intCurrency = vendingMachine.getIntValueOfString(currency);
@@ -200,6 +210,12 @@ public class VendingMachineGUI extends javax.swing.JFrame {
         logger.debug("CURRENCY INSERTED: Added ${} to total", currency);
     }
 
+    /**
+     * Takes the selection input from the TextField. Checks if the selection exists.
+     * Initiates application logic to purchase the item.
+     * 
+     * @param evt unused: there for overriding purposes
+     */
     private void enterSelectionButtonActionPerformed(ActionEvent evt) {
         String selection = selectionTextField.getText().toUpperCase();
 
@@ -225,12 +241,23 @@ public class VendingMachineGUI extends javax.swing.JFrame {
 
     }
 
+    /**
+     * Changes view to the Json updater GUI.
+     * 
+     * @param evt unused: there for overriding purposes
+     */
     private void pathButtonActionPerformed(ActionEvent evt) {
         ProductUpdateGUI updateGUI = new ProductUpdateGUI();
         updateGUI.setVisible(true);
         getThis().dispose();
     }
 
+    /**
+     * Initiates controller logic to dispense the item and refund. Shows visual
+     * representation on the GUI.
+     * 
+     * @param item
+     */
     private void dispense(Item item) {
         int refund = vendingMachine.getPayment().getTotal();
         String refundText = vendingMachine.getStringValueOfMoney(refund);
@@ -243,17 +270,25 @@ public class VendingMachineGUI extends javax.swing.JFrame {
 
     }
 
+    /**
+     * Initiates controller to read the current inventory and write it to screen.
+     */
     private void updateProductList() {
         jTextArea1.setText(vendingMachine.printProductList());
         logger.debug("UPDATED: Product List.");
     }
 
+    /**
+     * Convenience method to return a reference to this VendingMachineGUI object.
+     * 
+     * @return this instance of VendingMachineGUI
+     */
     private VendingMachineGUI getThis() {
         return this;
     }
 
     /**
-     * 
+     * Sets look and feel and makes the window visible.
      */
     public void run() {
         /* Set the Nimbus look and feel */
