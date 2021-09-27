@@ -379,3 +379,36 @@
 [DEBUG] 2021-09-23 12:59:42.779 [AWT-EventQueue-0] VendingMachineGUI - REFUND of 1365 initiated.
 [DEBUG] 2021-09-23 12:59:42.780 [AWT-EventQueue-0] VendingMachineGUI - UPDATED: Product List.
 [DEBUG] 2021-09-23 12:59:42.781 [AWT-EventQueue-0] VendingMachineGUI - UPDATED: Product List.
+[DEBUG] 2021-09-26 22:15:34.247 [main] App - STARTING VENDING MACHINE
+[DEBUG] 2021-09-26 22:15:34.249 [main] App - Path set to vendingmachine\src\main\resources\input.json
+[DEBUG] 2021-09-26 22:15:34.411 [main] VendingMachine - START OF NEW TRANSACTION
+[DEBUG] 2021-09-26 22:15:34.411 [main] VendingMachine - PROCESSED PAYMENT: $ 0.0
+[DEBUG] 2021-09-26 22:15:34.411 [main] VendingMachine - Rows set to 4, Columns set to 8
+[DEBUG] 2021-09-26 22:15:34.412 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A0
+[DEBUG] 2021-09-26 22:15:34.412 [main] VendingMachine - ADDED: 10 Hersheys, Current Price : $2.25 to Slot: A1
+[DEBUG] 2021-09-26 22:15:34.412 [main] VendingMachine - ADDED: 10 Hersheys Almond, Current Price : $1.80 to Slot: A2
+[DEBUG] 2021-09-26 22:15:34.413 [main] VendingMachine - ADDED: 10 Hersheys Special Dark, Current Price : $1.75 to Slot: A3
+[DEBUG] 2021-09-26 22:15:34.413 [main] VendingMachine - ADDED: 10 Reese's, Current Price : $1.05 to Slot: A4
+[DEBUG] 2021-09-26 22:15:34.413 [main] VendingMachine - ADDED: 10 Nutrageous, Current Price : $1.30 to Slot: A5
+[DEBUG] 2021-09-26 22:15:34.414 [main] VendingMachine - ADDED: 10 Baby Ruth, Current Price : $2.50 to Slot: A6
+[DEBUG] 2021-09-26 22:15:34.414 [main] VendingMachine - ADDED: 10 Milky Way, Current Price : $1.00 to Slot: A7
+[DEBUG] 2021-09-26 22:15:34.414 [main] VendingMachine - ADDED: 10 M&M, Current Price : $1.25 to Slot: B0
+[DEBUG] 2021-09-26 22:15:34.990 [main] VendingMachineGUI - UPDATED: Product List.
+[DEBUG] 2021-09-26 22:15:37.779 [AWT-EventQueue-0] VendingMachine - Converting to Cents: a
+[DEBUG] 2021-09-26 22:19:11.525 [main] App - STARTING VENDING MACHINE
+[DEBUG] 2021-09-26 22:19:11.526 [main] App - Path set to vendingmachine\src\main\resources\input.json
+[DEBUG] 2021-09-26 22:19:11.696 [main] VendingMachine - START OF NEW TRANSACTION
+[DEBUG] 2021-09-26 22:19:11.696 [main] VendingMachine - PROCESSED PAYMENT: $ 0.0
+[DEBUG] 2021-09-26 22:19:11.697 [main] VendingMachine - Rows set to 4, Columns set to 8
+[DEBUG] 2021-09-26 22:19:11.697 [main] VendingMachine - ADDED: 10 Snickers, Current Price : $1.35 to Slot: A0
+[DEBUG] 2021-09-26 22:19:11.697 [main] VendingMachine - ADDED: 10 Hersheys, Current Price : $2.25 to Slot: A1
+[DEBUG] 2021-09-26 22:19:11.698 [main] VendingMachine - ADDED: 10 Hersheys Almond, Current Price : $1.80 to Slot: A2
+[DEBUG] 2021-09-26 22:19:11.698 [main] VendingMachine - ADDED: 10 Hersheys Special Dark, Current Price : $1.75 to Slot: A3
+[DEBUG] 2021-09-26 22:19:11.698 [main] VendingMachine - ADDED: 10 Reese's, Current Price : $1.05 to Slot: A4
+[DEBUG] 2021-09-26 22:19:11.699 [main] VendingMachine - ADDED: 10 Nutrageous, Current Price : $1.30 to Slot: A5
+[DEBUG] 2021-09-26 22:19:11.699 [main] VendingMachine - ADDED: 10 Baby Ruth, Current Price : $2.50 to Slot: A6
+[DEBUG] 2021-09-26 22:19:11.699 [main] VendingMachine - ADDED: 10 Milky Way, Current Price : $1.00 to Slot: A7
+[DEBUG] 2021-09-26 22:19:11.700 [main] VendingMachine - ADDED: 10 M&M, Current Price : $1.25 to Slot: B0
+[DEBUG] 2021-09-26 22:19:12.075 [main] VendingMachineGUI - UPDATED: Product List.
+[DEBUG] 2021-09-26 22:19:14.847 [AWT-EventQueue-0] VendingMachine - Converting to Cents: a
+[DEBUG] 2021-09-26 22:19:16.341 [AWT-EventQueue-0] VendingMachine - Converting to Cents: a
