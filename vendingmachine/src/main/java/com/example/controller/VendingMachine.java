@@ -323,7 +323,7 @@ public class VendingMachine {
         } else
             sb.append(amount);
         assuredString = sb.toString();
-        parsed = assuredString.strip().replace("$", "");
+        parsed = assuredString.strip().replace("$", "").replace("[^0-9]", "");
         split = parsed.split("\\.");
         if (split[1].length() == 1) {
             addZero = new StringBuilder(split[1]);
